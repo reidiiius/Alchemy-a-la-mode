@@ -1,0 +1,12 @@
+
+ {
+  "name": "Alchemy a la mode",
+  "version": "1.4",
+  "manifest_version": 5,
+  "description": "Laboratory and Refinery",
+  "author": "Reid Netterville III",
+  "default locale": "en",
+  "icons": { "27": "favicon.ico",
+             "48": "reidiiius-icon.ico" },
+  "homepage url": "https://sites.google.com/site/reidiiius/app", 
+ }
