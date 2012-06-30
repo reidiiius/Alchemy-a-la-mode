@@ -1,8 +1,8 @@
 
  {
   "name": "Alchemy a la mode",
-  "version": "1.4",
-  "manifest_version": 5,
+  "version": "1.6",
+  "manifest_version": 7,
   "description": "Laboratory and Refinery",
   "author": "Reid Netterville III",
   "default locale": "en",
