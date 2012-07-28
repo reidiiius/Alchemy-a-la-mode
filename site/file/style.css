@@ -101,7 +101,9 @@ font-family:Helvetica,Sans-serif;
 
 font-size:20px;
 
-color:Sienna; }
+color:Sienna;
+
+cursor:pointer; }
 
 
 .form_2 {
@@ -116,7 +118,9 @@ font-family:Helvetica,Sans-serif;
 
 font-size:20px;
 
-color:Chocolate; }
+color:Chocolate;
+
+cursor:pointer; }
 
 
 .form_3 {
@@ -131,7 +135,9 @@ font-family:Helvetica,Sans-serif;
 
 font-size:18px;
 
-color:Peru; }
+color:Peru;
+
+cursor:pointer; }
 
 
 .form_4 {
@@ -146,7 +152,9 @@ font-family:Helvetica,Sans-serif;
 
 font-size:18px;
 
-color:Sienna; }
+color:Sienna;
+
+cursor:pointer; }
  
  
 .logo {
@@ -157,7 +165,9 @@ width: 134px;
  
 height: 134px;
  
-margin: 8px; }
+margin: 8px;
+
+cursor:pointer; }
  
  
 .seal {
@@ -168,7 +178,9 @@ width: 84px;
  
 height: 84px;
  
-margin: 30px; }
+margin: 30px;
+
+cursor:pointer; }
  
  
 .mlaa {
@@ -179,7 +191,9 @@ width: 48px;
  
 height: 48px;
  
-margin: 0px; }
+margin: 0px;
+
+cursor:pointer; }
  
  
 .aalm {
@@ -190,6 +204,13 @@ width: 48px;
  
 height: 48px;
  
-margin: 0px; }
+margin: 0px;
+
+cursor:pointer; }
+
+
+#pntr { 
+
+cursor:pointer; }
 
 
