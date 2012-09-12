@@ -1,326 +1,363 @@
 ﻿<!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html dir="ltr">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<meta name="description" content="Harmonic Inversion Functions for the Melakarta Ragas">
-<meta name="author" content="Reid Netterville III">
-<meta name="robots" content="noindex">
+<meta charset="UTF-8" />
+<meta name="description" content="Melakarta Graha bhedam" />
+<meta name="author" content="Reid Netterville III" />
 <title>Composite Ragas</title>
-<link rel="icon" href="favicon.ico" type="image/ico">
+<link rel="icon" type="image/ico" href="favicon.ico" />
+<style type="text/css">
+body{background-color:#fffaf0;text-align:center;}
+code{color:#228b22;}
+img{vertical-align:middle;}
+p.cat{font-family:papyrus,serif;font-size:28px;color:#006400;}
+p.par{font-family:papyrus,serif;font-size:20px;color:#999900;}
+p.sig{font-family:geneva,sans-serif;font-size:12px;color:#c0c0c0;}
+</style>
 </head>
-<body style="background-color:#fffff0;">
-<p style="text-align:center;font-family:Papyrus,Fantasy,Serif;font-size:28px;color:#12ae50;">
-<br>
-<b>Natural</b>
-</p>
-<p style="text-align:center;font-family:Papyrus,Fantasy,Serif;font-size:20px;color:#999900;">
-<br>
-<img src="glyph/venus-mercury.png" width="22px" height="49px" /><img src="glyph/leo.png" width="49px" height="52px" />
-Venus / Mercury in Leo - Hanumatodi
-<br>
-<img src="glyph/moon-sun.png" width="34px" height="37px" /><img src="glyph/pisces.png" width="39" height="53" />
-Moon / Sun in Pisces - Natabhairavi
-<br>
-<img src="glyph/jupiter-jupiter.png" width="30" height"44" /><img src="glyph/libra.png" width="72" height="51" />
-Jupiter / Jupiter in Libra - Kharaharapriya
-<br>
-<img src="glyph/sun-moon.png" width="31" height="38" /><img src="glyph/taurus.png" width="34" height="46" />
-Sun / Moon in Taurus - Harikambhoji
-<br>
-<img src="glyph/mercury-venus.png" width="21" height="51" /><img src="glyph/sagittarius.png" width="33" height="45" />
-Mercury / Venus in Sagittarius - Sankarabharanam
-<br>
-<img src="glyph/saturn-mars.png" width="26" height="47" /><img src="glyph/cancer.png" width="42" height="52" />
-Saturn / Mars in Cancer - Mechakalyani
-<br>
-</p>
-<p style="text-align:center;font-family:Papyrus,Fantasy,Serif;font-size:28px;color:#12ae50;">
-<br> 
-<b># 6 / -5</b>
-</p>
-<p style="text-align:center;font-family:Papyrus,Fantasy,Serif;font-size:20px;color:#999900;">
-<br>
-<img src="glyph/venus-saturn.png" width="26" height="46" /><img src="glyph/leo.png" width="49" height="52" />
-# 6 Venus / Saturn in Leo - Bhavapriya
-<br>
-<img src="glyph/sun-jupiter.png" width="36" height="36" /><img src="glyph/taurus.png" width="34" height="46" />
-# 6 Sun / Jupiter in Taurus - Vagadheeswari
-<br>
-<img src="glyph/mercury-moon.png" width="32" height="51" /><img src="glyph/sagittarius.png" width="33" height="45" />
-# 6 Mercury / Moon in Sagittarius - Naganandini
-<br>
-<br>
-<img src="glyph/moon-mercury.png" width="33" height="49" /><img src="glyph/leo.png" width="49" height="52" />
--5 Moon / Mercury in Leo - Ratnangi
-<br>
-<img src="glyph/jupiter_sun.png" width="41" height="42" /><img src="glyph/pisces.png" width="39" height="53" />
--5 Jupiter / Sun in Pisces - Jhankaradhwani
-<br>
-<img src="glyph/vesta-mars.png" width="30" height="45" /><img src="glyph/cancer.png" width="42" height="52" />
--5 Vesta / Mars in Cancer - Gamanasrama
-<br>
-<br>
-<img src="glyph/vesta-mars.png" width="30" height="45" /><img src="glyph/leo.png" width="49" height="52" />
--5 # 1 # 2 # 6 Vesta / Mars in Leo - Pavani
-<br>
-</p>
-<p style="text-align:center;font-family:Papyrus,Fantasy,Serif;font-size:28px;color:#12ae50;">
-<br> 
-<b>-3 / # 1</b>
-</p>
-<p style="text-align:center;font-family:Papyrus,Fantasy,Serif;font-size:20px;color:#999900;">
-<br>
-<img src="glyph/jupiter-mercury.png" width="26" height="53" /><img src="glyph/libra.png" width="72" height="51" />
--3 Jupiter / Mercury in Libra - Natakapriya
-<br>
-<img src="glyph/sun-sun.png" width="33" height="37" /><img src="glyph/taurus.png" width="34" height="46" />
--3 Sun / Sun in Taurus - Charukesi
-<br>
-<img src="glyph/mercury-jupiter.png" width="27" height="52" /><img src="glyph/sagittarius.png" width="33" height="45" />
--3 Mercury / Jupiter in Sagittarius - Gourimanohari
-<br>
-<img src="glyph/saturn-moon.png" width="30" height="51" /><img src="glyph/cancer.png" width="42" height="52" />
--3 Saturn / Moon in Cancer - Vachaspati
-<br>
-<br>
-<img src="glyph/moon-saturn.png" width="37" height="47" /><img src="glyph/leo.png" width="49" height="52" />
--5 # 6 Moon / Saturn in Leo - Jalarnavam
-<br>
-<img src="glyph/juno-mars.png" width="26" height="49" /><img src="glyph/leo.png" width="49" height="52" />
-# 6 -2 -5 Juno / Mars in Leo - Salagam
-<br>
-<img src="glyph/juno-mars.png" width="26" height="49" /><img src="glyph/leo.png" width="49" height="52" />
-# 2 # 6 -5 Juno / Mars in Leo - Jhalavarali
-<br>
-</p>
-<p style="text-align:center;font-family:Papyrus,Fantasy,Serif;font-size:28px;color:#12ae50;">
-<br> 
-<b>-6 / # 5</b>
-</p>
-<p style="text-align:center;font-family:Papyrus,Fantasy,Serif;font-size:20px;color:#999900;">
-<br>
-<img src="glyph/sun_chiron-mercury.png" width="25" height="49" /><img src="glyph/taurus.png" width="34" height="46" />
--6 Sun / Mercury in Taurus - Chakravakam
-<br>
-<img src="glyph/mercury-sun.png" width="24" height="54" /><img src="glyph/sagittarius.png" width="33" height="45" />
--6 Mercury / Sun in Sagittarius - Sarasangi
-<br>
-<img src="glyph/saturn-jupiter_ceres.png" width="32" height="49" /><img src="glyph/cancer.png" width="42" height="52" />
--6 Saturn / Jupiter Ceres in Cancer - Dharmavati
-<br>
-<br>
-<img src="glyph/sun-mercury.png" width="25" height="49" /><img src="glyph/leo.png" width="49" height="52" />
-# 5 Sun / Mercury in Leo - Vakulabharanam
-<br>
-<img src="glyph/mercury-sun_chiron.png" width="27" height="54" /><img src="glyph/pisces.png" width="39" height="53" />
-# 5 Mercury / Sun Chiron in Pisces - Keeravani
-<br>
-<img src="glyph/saturn-jupiter.png" width="32" height="49" /><img src="glyph/libra.png" width="72" height="51" />
-# 5 Saturn / Jupiter in Libra - Hemavati
-<br>
-<img src="glyph/neptune-mars.png" width="27" height="48" /><img src="glyph/cancer.png" width="42" height="52" />
-# 5 Neptune / Mars in Cancer - Kosalam
-<br>
-<br>
-<img src="glyph/titan-moon.png" width="29" height="46" /><img src="glyph/taurus.png" width="34" height="46" />
-# 1 -6 Titan / Moon in Taurus - Ramapriya
-<br>
-<img src="glyph/jupiter_ceres-saturn.png" width="31" height="51" /><img src="glyph/leo.png" width="49" height="52" />
-# 1 # 6 Jupiter / Saturn in Leo - Shadvidhamargini
-<br>
-<img src="glyph/saturn-jupiter.png" width="32" height="49" /><img src="glyph/taurus.png" width="34" height="46" />
-# 1 # 6 Saturn / Jupiter in Taurus - Nasikabhusani
-<br>
-<br>
-<img src="glyph/venus-uranus.png" width="29" height="44" /><img src="glyph/leo.png" width="49" height="52" />
-# 5 # 6 Venus / Uranus in Leo - Namanarayani
-<br>
-<img src="glyph/neptune-mars.png" width="27" height="48" /><img src="glyph/cancer.png" width="42" height="52" />
--5 -6 Neptune / Mars in Cancer - Suvarnangi
-<br>
-<br>
-<img src="glyph/venus-uranus.png" width="29" height="44" /><img src="glyph/pisces.png" width="39" height="53" />
-# 1 # 2 # 7 Venus / Uranus in Pisces - Jyotiswarupini
-<br>
-<img src="glyph/neptune-mars.png" width="27" height="48" /><img src="glyph/pisces.png" width="39" height="53" />
-# 1 # 2 # 7 -5 Neptune / Mars in Pisces - Sucharitra
-<br>
-<br>
-<img src="glyph/titan-moon.png" width="29" height="46" /><img src="glyph/libra.png" width="72" height="51" />
--3 -4 # 5 Titan / Moon in Libra - Navaneetam
-<br>
-</p>
-<p style="text-align:center;font-family:Papyrus,Fantasy,Serif;font-size:28px;color:#12ae50;">
-<br> 
-<b>-2 / # 2</b> 
-</p>
-<p style="text-align:center;font-family:Papyrus,Fantasy,Serif;font-size:20px;color:#999900;">
-<br>
-<img src="glyph/venus-neptune.png" width="24" height="47" /><img src="glyph/leo.png" width="49" height="52" />
--2 Venus / Neptune in Leo - Senavati
-<br>
-<img src="glyph/mercury_chiron-mercury.png" width="20" height="54" /><img src="glyph/sagittarius.png" width="33" height="45" />
--2 Mercury / Mercury in Sagittarius - Suryakantam
-<br>
-<img src="glyph/saturn-sun.png" width="26" height="49" /><img src="glyph/cancer.png" width="42" height="52" />
--2 Saturn / Sun in Cancer - Latangi
-<br>
-<br>
-<img src="glyph/mercury-mercury_chiron.png" width="20" height="54" /><img src="glyph/leo.png" width="49" height="52" />
-# 2 Mercury / Mercury in Leo - Dhenuka
-<br>
-<img src="glyph/saturn-sun.png" width="26" height="49" /><img src="glyph/pisces.png" width="39" height="53" />
-# 2 Saturn / Sun in Pisces - Shanmukhapriya
-<br>
-<img src="glyph/neptune-venus.png" width="25" height="49" /><img src="glyph/sagittarius.png" width="33" height="45" />
-# 2 Neptune / Venus in Sagittarius - Sulini
-<br>
-<img src="glyph/pluto-mars.png" width="30" height="52" /><img src="glyph/cancer.png" width="42" height="52" />
-# 2 Pluto / Mars in Cancer - Chitrambhari
-<br>
-<br>
-<img src="glyph/mercury-mercury.png" width="20" height="54" /><img src="glyph/leo.png" width="49" height="52" />
-# 2 # 5 Mercury / Mercury in Leo - Mayamalavagowla
-<br>
-<img src="glyph/saturn-sun_ceres.png" width="25" height="45" /><img src="glyph/pisces.png" width="39" height="53" />
-# 2 # 5 Saturn / Sun Ceres in Pisces - Simhendramadhyamam
-<br>
-<img src="glyph/pluto-mars.png" width="30" height="52" /><img src="glyph/cancer.png" width="42" height="52" />
-# 2 # 5 Pluto / Mars in Cancer - Rasikapriya
-<br>
-<br>
-<img src="glyph/mercury_chiron-mercury_chiron.png" width="20" height="54" /><img src="glyph/sagittarius.png" width="33" height="45" />
--2 -3 Mercury / Mercury in Sagittarius - Kokilapriya
-<br>
-<img src="glyph/saturn-sun.png" width="26" height="49" /><img src="glyph/cancer.png" width="42" height="52" />
--2 -3 Saturn / Sun in Cancer - Rishabhapriya
-<br>
-<br>
-<img src="glyph/mercury-mercury_chiron.png" width="20" height="54" /><img src="glyph/sagittarius.png" width="33" height="45" />
--2 -3 # 6 Mercury / Mercury in Sagittarius - Roopavati
-<br>
-<br>
-<img src="glyph/venus-neptune.png" width="24" height="47" /><img src="glyph/leo.png" width="49" height="52" />
--2 # 5 # 6 Venus / Neptune in Leo - Dhavalambari
-<br>
-<img src="glyph/pluto-mars.png" width="30" height="52" /><img src="glyph/cancer.png" width="42" height="52" />
-# 2 -5 -6 Pluto / Mars in Cancer - Divyamani
-<br>
-<br>
-<img src="glyph/venus-neptune.png" width="24" height="47" /><img src="glyph/leo.png" width="49" height="52" />
--2 # 6 Venus / Neptune in Leo - Gavambodhi
-<br>
-<img src="glyph/mercury-mercury.png" width="20" height="54" /><img src="glyph/sagittarius.png" width="33" height="45" />
--2 # 6 Mercury / Mercury in Sagittarius - Hatakambari
-<br>
-<br>
-<img src="glyph/mercury-mercury.png" width="20" height="54" /><img src="glyph/leo.png" width="33" height="45" />
-# 2 -5 Mercury / Mercury in Leo - Ganamurti
-<br>
-<img src="glyph/saturn-sun.png" width="26" height="49" /><img src="glyph/pisces.png" width="39" height="53" />
-# 2 -5 Saturn / Sun in Pisces - Syamalangi
-<br>
-<img src="glyph/pluto-mars.png" width="30" height="52" /><img src="glyph/cancer.png" width="42" height="52" />
-# 2 -5 Pluto / Mars in Cancer - Viswambhari
-<br>
-<br>
-<img src="glyph/mercury_chiron-mercury.png" width="20" height="54" /><img src="glyph/leo.png" width="49" height="52" />
-# 1 # 2 -5 Mercury / Mercury in Leo - Manavati
-<br>
-<img src="glyph/saturn-sun.png" width="26" height="49" /><img src="glyph/pisces.png" width="39" height="53" />
-# 1 # 2 -5 Saturn / Sun in Pisces - Kantamani
-<br>
-<br>
-<img src="glyph/titan-jupiter.png" width="30" height="44" /><img src="glyph/libra.png" width="72" height="51" />
--3 -4 # 5 Titan / Jupiter in Libra - Navaneetam
-<br>
-<br>
-<img src="glyph/neptune-venus.png" width="25" height="49" /><img src="glyph/taurus.png" width="34" height="46" /> 
--3 -4 # 6 Neptune / Venus in Taurus - Yagapriya
-<br>
-<img src="glyph/venus-neptune.png" width="24" height="47" /><img src="glyph/taurus.png" width="34" height="46" />
--3 -4 # 1 # 6 Venus / Neptune in Taurus - Sucharitra
-<br>
-<br>
-<img src="glyph/mercury-mercury.png" width="20" height="54" /><img src="glyph/leo.png" width="49" height="52" />
-x1 # 2 -5 Mercury / Mercury in Leo - Tanarupi
-<br>
-<img src="glyph/pluto-mars.png" width="30" height="52" /><img src="glyph/leo.png" width="49" height="52" />
-x1 # 2 # 6 -5 Pluto / Mars in Leo - Raghupriya
-<br>
-</p>
-<p style="text-align:center;font-family:Papyrus,Fantasy,Serif;font-size:28px;color:#12ae50;">
-<br>
-<b>-3 # 6 / # 1 -5</b> 
-</p>
-<p style="text-align:center;font-family:Papyrus,Fantasy,Serif;font-size:20px;color:#999900;">
-<br>
-<img src="glyph/chiron-mercury.png" width="31" height="54" /><img src="glyph/leo.png" width="49" height="52" />
-# 1 -5 Chiron / Mercury in Leo - Vanaspati 
-<br>
-<img src="glyph/uranus-sun.png" width="26" height="48" /><img src="glyph/pisces.png" width="39" height="53" />
-# 1 -5 Uranus / Sun in Pisces - Mararanjani
-<br>
-<br>
-<img src="glyph/sun-uranus.png" width="28" height="45" /><img src="glyph/taurus.png" width="34" height="46" />
--3 # 6 Sun / Uranus in Taurus - Ragavardhini
-<br>
-<img src="glyph/mercury-chiron.png" width="27" height="51" /><img src="glyph/sagittarius.png" width="33" height="54" />
--3 # 6 Mercury / Chiron in Sagittarius - Varunapriya
-<br>
-</p>
-<p style="text-align:center;font-family:Papyrus,Fantasy,Serif;font-size:28px;color:#12ae50;">
-<br> 
-<b># 2 -6 / -2 # 5</b>
-</p>
-<p style="text-align:center;font-family:Papyrus,Fantasy,Serif;font-size:20px;color:#999900;">
-<br>
-<img src="glyph/mercury-pallas.png" width="26" height="56" /><img src="glyph/sagittarius.png" width="33" height="45" />
-# 2 -6 Mercury / Pallas in Sagittarius - Gangeyabhusani
-<br>
-<img src="glyph/saturn-ceres.png" width="26" height="51" /><img src="glyph/cancer.png" width="42" height="52" />
-# 2 -6 Saturn / Ceres in Cancer - Neetimati
-<br>
-<br>
-<img src="glyph/pallas-mercury.png" width="21" height="52" /><img src="glyph/leo.png" width="49" height="52" />
--2 # 5 Pallas / Mercury in Leo - Gayakapriya
-<br>
-<img src="glyph/venus-mars.png" width="26" height="49" /><img src="glyph/cancer.png" width="42" height="52" />
--2 # 5 Venus / Mars in Cancer - Dhatuvardhini
-<br>
-</p>
-<p style="text-align:center;font-family:Papyrus,Fantasy,Serif;font-size:28px;color:#12ae50;">
-<br> 
-<b># 2 # 6 / -2 -5</b>
-</p>
-<p style="text-align:center;font-family:Papyrus,Fantasy,Serif;font-size:20px;color:#999900;">
-<br>
-<img src="glyph/venus-mars.png" width="26" height="49" /><img src="glyph/leo.png" width="49" height="52" />
-# 2 # 6 Venus / Mars in Leo - Subhapantuvarali
-<br>
-<img src="glyph/mercury-pallas.png" width="26" height="56" /><img src="glyph/sagittarius.png" width="33" height="45" />
-# 2 # 6 Mercury / Pallas in Sagittarius - Chalanata
-<br>
-<br>
-<img src="glyph/pallas-mercury.png" width="21" height="52" /><img src="glyph/leo.png" width="49" height="52" />
--2 -5 Pallas / Mercury in Leo - Kanakangi
-<br>
-<img src="glyph/venus-mars.png" width="26" height="49" /><img src="glyph/cancer.png" width="42" height="52" />
--2 -5 Venus / Mars in Cancer - Kamavardhini
-<br>
-<br>
-<img src="glyph/ceres-saturn.png" width="26" height="49" /><img src="glyph/leo.png" width="49" height="52" />
-# 1 # 6 -5 Ceres / Saturn in Leo - Navaneetam 
-<br>
-</p>
-<br>
-<br>
-<br>
-<div>
-<p style="text-align:center;font-family:Helvetica,Sans-serif;font-size:12px;color:#12ae50;">
-Copyright &#169 2012 Reid Netterville III. All Rights Reserved.</p>
-</div>
-<br>
+<body>
+<p class="cat">&#9838;</p>
+<p class="par">
+<code>&#9838;</code>
+<img src="glyph/venus-mercury.png" width="22" height="49" />
+<img src="glyph/leo.png" width="49" height="52" />
+Hanumatodi<br />
+<code>&#9838;</code>
+<img src="glyph/moon-sun.png" width="34" height="37" />
+<img src="glyph/pisces.png" width="39" height="53" />
+Natabhairavi<br />
+<code>&#9838;</code>
+<img src="glyph/jupiter-jupiter.png" width="30" height="44" />
+<img src="glyph/libra.png" width="72" height="51" />
+Kharaharapriya<br />
+<code>&#9838;</code>
+<img src="glyph/sun-moon.png" width="31" height="38" />
+<img src="glyph/taurus.png" width="34" height="46" />
+Harikambhoji<br />
+<code>&#9838;</code>
+<img src="glyph/mercury-venus.png" width="21" height="51" />
+<img src="glyph/sagittarius.png" width="33" height="45" />
+Sankarabharanam<br />
+<code>&#9838;</code>
+<img src="glyph/saturn-mars.png" width="26" height="47" />
+<img src="glyph/cancer.png" width="42" height="52" />
+Mechakalyani<br /></p>
+<p class="cat">&#9839;6&#9741;&#9837;5</p>
+<p class="par">
+<code>&#9839;6</code>
+<img src="glyph/venus-saturn.png" width="26" height="46" />
+<img src="glyph/leo.png" width="49" height="52" />
+Bhavapriya<br />
+<code>&#9839;6</code>
+<img src="glyph/sun-jupiter.png" width="36" height="36" />
+<img src="glyph/taurus.png" width="34" height="46" />
+Vagadheeswari<br />
+<code>&#9839;6</code>
+<img src="glyph/mercury-moon.png" width="32" height="51" />
+<img src="glyph/sagittarius.png" width="33" height="45" />
+Naganandini<br />
+<br />
+<code>&#9837;5</code>
+<img src="glyph/moon-mercury.png" width="33" height="49" />
+<img src="glyph/leo.png" width="49" height="52" />
+Ratnangi <br />
+<code>&#9837;5</code>
+<img src="glyph/jupiter_sun.png" width="41" height="42" />
+<img src="glyph/pisces.png" width="39" height="53" />
+Jhankaradhwani<br />
+<code>&#9837;5</code>
+<img src="glyph/vesta-mars.png" width="30" height="45" />
+<img src="glyph/cancer.png" width="42" height="52" />
+Gamanasrama<br />
+<br />
+<code>&#9839;1&#9839;2&#9839;6&#9837;5</code>
+<img src="glyph/vesta-mars.png" width="30" height="45" />
+<img src="glyph/leo.png" width="49" height="52" />
+Pavani<br /></p>
+<p class="cat">&#9837;3&#9741;&#9839;1</p>
+<p class="par">
+<code>&#9837;3</code>
+<img src="glyph/jupiter-mercury.png" width="26" height="53" />
+<img src="glyph/libra.png" width="72" height="51" />
+Natakapriya<br />
+<code>&#9837;3</code>
+<img src="glyph/sun-sun.png" width="33" height="37" />
+<img src="glyph/taurus.png" width="34" height="46" />
+Charukesi<br />
+<code>&#9837;3</code>
+<img src="glyph/mercury-jupiter.png" width="27" height="52" />
+<img src="glyph/sagittarius.png" width="33" height="45" />
+Gourimanohari<br />
+<code>&#9837;3</code>
+<img src="glyph/saturn-moon.png" width="30" height="51" />
+<img src="glyph/cancer.png" width="42" height="52" />
+Vachaspati<br />
+<br />
+<code>&#9837;5&#9839;6</code>
+<img src="glyph/moon-saturn.png" width="37" height="47" />
+<img src="glyph/leo.png" width="49" height="52" />
+Jalarnavam<br />
+<code>&#9839;6&#9837;2&#9837;5</code>
+<img src="glyph/juno-mars.png" width="26" height="49" />
+<img src="glyph/leo.png" width="49" height="52" />
+Salagam<br />
+<code>&#9839;2&#9839;6&#9837;5</code>
+<img src="glyph/juno-mars.png" width="26" height="49" />
+<img src="glyph/leo.png" width="49" height="52" />
+Jhalavarali<br /></p>
+<p class="cat">&#9837;6&#9741;&#9839;5</p>
+<p class="par">
+<code>&#9837;6</code>
+<img src="glyph/sun_chiron-mercury.png" width="25" height="49" />
+<img src="glyph/taurus.png" width="34" height="46" />
+Chakravakam<br />
+<code>&#9837;6</code>
+<img src="glyph/mercury-sun.png" width="24" height="54" />
+<img src="glyph/sagittarius.png" width="33" height="45" />
+Sarasangi<br />
+<code>&#9837;6</code>
+<img src="glyph/saturn-jupiter_ceres.png" width="32" height="49" />
+<img src="glyph/cancer.png" width="42" height="52" />
+Dharmavati<br />
+<br />
+<code>&#9839;5</code>
+<img src="glyph/sun-mercury.png" width="25" height="49" />
+<img src="glyph/leo.png" width="49" height="52" />
+Vakulabharanam<br />
+<code>&#9839;5</code>
+<img src="glyph/mercury-sun_chiron.png" width="27" height="54" />
+<img src="glyph/pisces.png" width="39" height="53" />
+Keeravani<br />
+<code>&#9839;5</code>
+<img src="glyph/saturn-jupiter.png" width="32" height="49" />
+<img src="glyph/libra.png" width="72" height="51" />
+Hemavati<br />
+<code>&#9839;5</code>
+<img src="glyph/neptune-mars.png" width="27" height="48" />
+<img src="glyph/cancer.png" width="42" height="52" />
+Kosalam<br />
+<br />
+<code>&#9839;1&#9837;6</code>
+<img src="glyph/titan-moon.png" width="29" height="46" />
+<img src="glyph/taurus.png" width="34" height="46" />
+Ramapriya<br />
+<code>&#9839;1&#9839;6</code>
+<img src="glyph/jupiter_ceres-saturn.png" width="31" height="51" />
+<img src="glyph/leo.png" width="49" height="52" />
+Shadvidhamargini<br />
+<code>&#9839;1&#9839;6</code>
+<img src="glyph/saturn-jupiter.png" width="32" height="49" />
+<img src="glyph/taurus.png" width="34" height="46" />
+Nasikabhusani<br />
+<br />
+<code>&#9839;5&#9839;6</code>
+<img src="glyph/venus-uranus.png" width="29" height="44" />
+<img src="glyph/leo.png" width="49" height="52" />
+Namanarayani<br />
+<code>&#9837;5&#9837;6</code>
+<img src="glyph/neptune-mars.png" width="27" height="48" />
+<img src="glyph/cancer.png" width="42" height="52" />
+Suvarnangi<br />
+<br />
+<code>&#9839;1&#9839;2&#9839;7</code>
+<img src="glyph/venus-uranus.png" width="29" height="44" />
+<img src="glyph/pisces.png" width="39" height="53" />
+Jyotiswarupini<br />
+<code>&#9839;1&#9839;2&#9839;7&#9837;5</code>
+<img src="glyph/neptune-mars.png" width="27" height="48" />
+<img src="glyph/pisces.png" width="39" height="53" />
+Sucharitra<br />
+<br />
+<code>&#9837;3&#9837;4&#9839;5</code>
+<img src="glyph/titan-moon.png" width="29" height="46" />
+<img src="glyph/libra.png" width="72" height="51" />
+Navaneetam<br /></p>
+<p class="cat">&#9837;2&#9741;&#9839;2</p>
+<p class="par">
+<code>&#9837;2</code>
+<img src="glyph/venus-neptune.png" width="24" height="47" />
+<img src="glyph/leo.png" width="49" height="52" />
+Senavati<br />
+<code>&#9837;2</code>
+<img src="glyph/mercury_chiron-mercury.png" width="20" height="54" />
+<img src="glyph/sagittarius.png" width="33" height="45" />
+Suryakantam<br />
+<code>&#9837;2</code>
+<img src="glyph/saturn-sun.png" width="26" height="49" />
+<img src="glyph/cancer.png" width="42" height="52" />
+Latangi<br />
+<br />
+<code>&#9839;2</code>
+<img src="glyph/mercury-mercury_chiron.png" width="20" height="54" />
+<img src="glyph/leo.png" width="49" height="52" />
+Dhenuka<br />
+<code>&#9839;2</code>
+<img src="glyph/saturn-sun.png" width="26" height="49" />
+<img src="glyph/pisces.png" width="39" height="53" />
+Shanmukhapriya<br />
+<code>&#9839;2</code>
+<img src="glyph/neptune-venus.png" width="25" height="49" />
+<img src="glyph/sagittarius.png" width="33" height="45" />
+Sulini<br />
+<code>&#9839;2</code>
+<img src="glyph/pluto-mars.png" width="30" height="52" />
+<img src="glyph/cancer.png" width="42" height="52" />
+Chitrambhari<br />
+<br />
+<code>&#9839;2&#9839;5</code>
+<img src="glyph/mercury-mercury.png" width="20" height="54" />
+<img src="glyph/leo.png" width="49" height="52" />
+Mayamalavagowla<br />
+<code>&#9839;2&#9839;5</code>
+<img src="glyph/saturn-sun_ceres.png" width="25" height="45" />
+<img src="glyph/pisces.png" width="39" height="53" />
+Simhendramadhyamam<br />
+<code>&#9839;2&#9839;5</code>
+<img src="glyph/pluto-mars.png" width="30" height="52" />
+<img src="glyph/cancer.png" width="42" height="52" />
+Rasikapriya<br />
+<br />
+<code>&#9837;2&#9837;3</code>
+<img src="glyph/mercury_chiron-mercury_chiron.png" width="20" height="54" />
+<img src="glyph/sagittarius.png" width="33" height="45" />
+Kokilapriya<br />
+<code>&#9837;2&#9837;3</code>
+<img src="glyph/saturn-sun.png" width="26" height="49" />
+<img src="glyph/cancer.png" width="42" height="52" />
+Rishabhapriya<br />
+<br />
+<code>&#9837;2&#9837;3&#9839;6</code>
+<img src="glyph/mercury-mercury_chiron.png" width="20" height="54" />
+<img src="glyph/sagittarius.png" width="33" height="45" />
+Roopavati<br />
+<br />
+<code>&#9837;2&#9839;5&#9839;6</code>
+<img src="glyph/venus-neptune.png" width="24" height="47" />
+<img src="glyph/leo.png" width="49" height="52" />
+Dhavalambari<br />
+<code>&#9839;2&#9837;5&#9837;6</code>
+<img src="glyph/pluto-mars.png" width="30" height="52" />
+<img src="glyph/cancer.png" width="42" height="52" />
+Divyamani<br />
+<br />
+<code>&#9837;2&#9839;6</code>
+<img src="glyph/venus-neptune.png" width="24" height="47" />
+<img src="glyph/leo.png" width="49" height="52" />
+Gavambodhi<br />
+<code>&#9837;2&#9839;6</code>
+<img src="glyph/mercury-mercury.png" width="20" height="54" />
+<img src="glyph/sagittarius.png" width="33" height="45" />
+Hatakambari<br />
+<br />
+<code>&#9839;2&#9837;5</code>
+<img src="glyph/mercury-mercury.png" width="20" height="54" />
+<img src="glyph/leo.png" width="33" height="45" />
+Ganamurti<br />
+<code>&#9839;2&#9837;5</code>
+<img src="glyph/saturn-sun.png" width="26" height="49" />
+<img src="glyph/pisces.png" width="39" height="53" />
+Syamalangi<br />
+<code>&#9839;2&#9837;5</code>
+<img src="glyph/pluto-mars.png" width="30" height="52" />
+<img src="glyph/cancer.png" width="42" height="52" />
+Viswambhari<br />
+<br />
+<code>&#9839;1&#9839;2&#9837;5</code>
+<img src="glyph/mercury_chiron-mercury.png" width="20" height="54" />
+<img src="glyph/leo.png" width="49" height="52" />
+Manavati<br />
+<code>&#9839;1&#9839;2&#9837;5</code>
+<img src="glyph/saturn-sun.png" width="26" height="49" />
+<img src="glyph/pisces.png" width="39" height="53" />
+Kantamani<br />
+<br />
+<code>&#9837;3&#9837;4&#9839;5</code>
+<img src="glyph/titan-jupiter.png" width="30" height="44" />
+<img src="glyph/libra.png" width="72" height="51" />
+Navaneetam<br />
+<br />
+<code>&#9837;3&#9837;4&#9839;6</code>
+<img src="glyph/neptune-venus.png" width="25" height="49" />
+<img src="glyph/taurus.png" width="34" height="46" /> 
+Yagapriya<br />
+<code>&#9837;3&#9837;4&#9839;1&#9839;6</code>
+<img src="glyph/venus-neptune.png" width="24" height="47" />
+<img src="glyph/taurus.png" width="34" height="46" />
+Sucharitra<br />
+<br />
+<code>&#9747;1&#9839;2&#9837;5</code>
+<img src="glyph/mercury-mercury.png" width="20" height="54" />
+<img src="glyph/leo.png" width="49" height="52" />
+Tanarupi<br />
+<code>&#9747;1&#9839;2&#9839;6&#9837;5</code>
+<img src="glyph/pluto-mars.png" width="30" height="52" />
+<img src="glyph/leo.png" width="49" height="52" />
+Raghupriya<br /></p>
+<p class="cat">&#9837;3&#9839;6&#9741;&#9839;1&#9837;5</p>
+<p class="par">
+<code>&#9839;1&#9837;5</code>
+<img src="glyph/chiron-mercury.png" width="31" height="54" />
+<img src="glyph/leo.png" width="49" height="52" />
+Vanaspati<br />
+<code>&#9839;1&#9837;5</code>
+<img src="glyph/uranus-sun.png" width="26" height="48" />
+<img src="glyph/pisces.png" width="39" height="53" />
+Mararanjani<br />
+<br />
+<code>&#9837;3&#9839;6</code>
+<img src="glyph/sun-uranus.png" width="28" height="45" />
+<img src="glyph/taurus.png" width="34" height="46" />
+Ragavardhini<br />
+<code>&#9837;3&#9839;6</code>
+<img src="glyph/mercury-chiron.png" width="27" height="51" />
+<img src="glyph/sagittarius.png" width="33" height="54" />
+Varunapriya<br /></p>
+<p class="cat">&#9839;2&#9837;6&#9741;&#9837;2&#9839;5</p>
+<p class="par">
+<code>&#9839;2&#9837;6</code>
+<img src="glyph/mercury-pallas.png" width="26" height="56" />
+<img src="glyph/sagittarius.png" width="33" height="45" />
+Gangeyabhusani<br />
+<code>&#9839;2&#9837;6</code>
+<img src="glyph/saturn-ceres.png" width="26" height="51" />
+<img src="glyph/cancer.png" width="42" height="52" />
+Neetimati<br />
+<br />
+<code>&#9837;2&#9839;5</code>
+<img src="glyph/pallas-mercury.png" width="21" height="52" />
+<img src="glyph/leo.png" width="49" height="52" />
+Gayakapriya<br />
+<code>&#9837;2&#9839;5</code>
+<img src="glyph/venus-mars.png" width="26" height="49" />
+<img src="glyph/cancer.png" width="42" height="52" />
+Dhatuvardhini<br /></p>
+<p class="cat">&#9839;2&#9839;6&#9741;&#9837;2&#9837;5</p>
+<p class="par">
+<code>&#9839;2&#9839;6</code>
+<img src="glyph/venus-mars.png" width="26" height="49" />
+<img src="glyph/leo.png" width="49" height="52" />
+Subhapantuvarali<br />
+<code>&#9839;2&#9839;6</code>
+<img src="glyph/mercury-pallas.png" width="26" height="56" />
+<img src="glyph/sagittarius.png" width="33" height="45" />
+Chalanata<br />
+<br />
+<code>&#9837;2&#9837;5</code>
+<img src="glyph/pallas-mercury.png" width="21" height="52" />
+<img src="glyph/leo.png" width="49" height="52" />
+Kanakangi<br />
+<code>&#9837;2&#9837;5</code>
+<img src="glyph/venus-mars.png" width="26" height="49" />
+<img src="glyph/cancer.png" width="42" height="52" />
+Kamavardhini<br />
+<br />
+<code>&#9839;1&#9839;6&#9837;5</code>
+<img src="glyph/ceres-saturn.png" width="26" height="49" />
+<img src="glyph/leo.png" width="49" height="52" />
+Navaneetam<br /></p>
+<br />
+<p class="sig">
+Copyright &#169; 2012 Reid Netterville III. All Rights Reserved.</p>
+<br />
 </body>
 </html>
-

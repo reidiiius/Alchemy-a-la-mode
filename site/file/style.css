@@ -1,4 +1,9 @@
 ﻿
+body.ui1 {
+
+background:url(site/page/bg_.jpg); }
+
+
 div.container {
  
 width:100%;
@@ -12,6 +17,11 @@ border: 1px solid #999900;
 background-color: #fffff0;
  
 padding: 2em; }
+
+
+div.center {
+
+text-align:center; }
 
 
 table {

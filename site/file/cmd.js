@@ -153,7 +153,7 @@ function $25_sun() {
  window.open('page/25_sun.html','_blank','toolbar=no,location=no,directories=no,status=no,menubar=no,copyhistory=no,scrollbars=no,resizable=yes,width=400,height=400');}
 
 function $list() {
- window.open('vault/raga.html','_blank','toolbar=no,location=no,directories=no,status=no,menubar=no,copyhistory=no,scrollbars=yes,resizable=yes,width=600,height=450');}
+ window.open('vault/raga.html','_blank','toolbar=no,location=no,directories=no,status=no,menubar=no,copyhistory=no,scrollbars=yes,resizable=yes,width=400,height=420');}
  
 function $pg_e() {
  window.open('vault/pg-e.html','_blank','toolbar=no,location=no,directories=no,status=no,menubar=no,copyhistory=no,scrollbars=yes,resizable=yes,width=800,height=600');}  

@@ -1,9 +1,9 @@
 
  {
   "name": "Alchemy a la mode",
-  "version": "2.0",
-  "manifest_version": 11,
-  "description": "Laboratory and Refinery",
+  "version": "2.1",
+  "manifest_version": 12,
+  "description": "Alchemical music notation",
   "author": "Reid Netterville III",
   "default locale": "en",
   "icons": { "16": "icon/16.png",

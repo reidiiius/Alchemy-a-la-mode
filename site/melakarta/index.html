@@ -2,216 +2,212 @@
 <html dir="ltr" lang="en">
 <head>
 <meta charset="UTF-8" />
-<title>Melakarta</title>
-<link rel="icon" href="favicon.ico" type="image/ico" />
-<meta name='robots' content='noindex,nofollow' />
 <meta name="application-name" content="Alchemy a la mode" />
 <meta name="description" content="Alchemical music notation" />
+<meta name="author" content="Reid Netterville III" />
+<title>Melakarta</title>
+<link rel="icon" type="image/ico" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="chakras.css" />
 <script type="text/javascript" src="db.js"></script>
-<style type="text/css">
-</style>
 </head>
-<body style="background-color:Olive;">
-<h1 style="text-align:center;font=family:Sans-serif;color:Khaki;">Melakarta</h1>
-<div align="center">
-<table border="0">
+<body>
+<h1>Melakarta</h1>
+<table>
 <tbody>
 <tr>
-<td width="510" height="600" style="background-color:Black;"><br />
-<p style="text-align:center;"><input type="button" value="Indu" style="border-color:transparent;background-color:black;padding:10px;font-family:Helvetica,Sans-serif;font-size:28px;color:Olive;cursor:pointer;" onclick="openwin_indu()" /></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Kanakangi</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -2-5 </code>&nbsp;<i> Pallas / Mercury in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Ratnangi</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -5 </code>&nbsp;<i> Moon / Mercury in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Ganamoorti</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #2-5 </code>&nbsp;<i> Mercury / Mercury in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Vanaspati</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #1-5 </code>&nbsp;<i> Chiron / Mercury in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Manavati</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #1#2-5 </code>&nbsp;<i> Chiron Mercury / Mercury in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Tanarupi</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> X1#2-5 </code>&nbsp;<i> Mercury / Mercury in Leo</i></p>
+<td class="base"><br />
+<p class="chakra"><input type="button" value="Indu" onclick="openwin_indu()" /></p>
+<p class="raga">Kanakangi</p>
+<p class="astro"><code> -2-5 </code>&nbsp;<i> Pallas / Mercury in Leo</i></p>
+<p class="raga">Ratnangi</p>
+<p class="astro"><code> -5 </code>&nbsp;<i> Moon / Mercury in Leo</i></p>
+<p class="raga">Ganamoorti</p>
+<p class="astro"><code> #2-5 </code>&nbsp;<i> Mercury / Mercury in Leo</i></p>
+<p class="raga">Vanaspati</p>
+<p class="astro"><code> #1-5 </code>&nbsp;<i> Chiron / Mercury in Leo</i></p>
+<p class="raga">Manavati</p>
+<p class="astro"><code> #1#2-5 </code>&nbsp;<i> Chiron Mercury / Mercury in Leo</i></p>
+<p class="raga">Tanarupi</p>
+<p class="astro"><code> X1#2-5 </code>&nbsp;<i> Mercury / Mercury in Leo</i></p>
 </td>
-<td width="510" height="600" style="background-color:black;"><br />
-<p style="text-align:center;"><input type="button" value="Rishi" style="border-color:transparent;background-color:Black;padding:10px;font-family:Helvetica,Sans-serif;font-size:28px;color:Olive;cursor:pointer;" onclick="openwin_rishi()" /></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Salagam</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -2-5#6 </code>&nbsp;<i> Juno / Mars in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Jalarnavam</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -5#6 </code>&nbsp;<i> Moon / Saturn in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Jhalavarali</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -5#2#6 </code>&nbsp;<i> Juno / Mars in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Navaneetam</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #1#6-5 </code>&nbsp;<i> Ceres / Saturn in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Pavani</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -5=6 </code>&nbsp;<i> Vesta / Mars in Cancer</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Raghupriya</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #2-5=6 </code>&nbsp;<i> Pluto / Mars in Cancer</i></p>
-</td>
-</tr>
-<tr>
-<td width="510" height="600" style="background-color:black;"><br />
-<p style="text-align:center;"><input type="button" value="Netra" style="border-color:transparent;background-color:Black;padding:10px;font-family:Helvetica,Sans-serif;font-size:28px;color:Olive;cursor:pointer;" onclick="openwin_netra()" /></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Senavati</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -2 </code>&nbsp;<i> Venus / Neptune in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Hanumatodi</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><i> Venus / Mercury in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Dhenuka</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #2 </code>&nbsp;<i> Mercury / Chiron Mercury in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Natakapriya</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #1 </code>&nbsp;<i> Jupiter / Mercury in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Kokilapriya</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #1#2 </code>&nbsp;<i> Chiron Mercury / Chiron Mercury in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Roopavati</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> X1#2 </code>&nbsp;<i> Mercury / Chiron Mercury in Leo</i></p>
-</td>
-<td width="510" height="600" style="background-color:black;"><br />
-<p style="text-align:center;"><input type="button" value="Vasu" style="border-color:transparent;background-color:Black;padding:10px;font-family:Helvetica,Sans-serif;font-size:28px;color:Olive;cursor:pointer;" onclick="openwin_vasu()" /></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Gavambodhi</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -2#6 </code>&nbsp;<i> Venus / Neptune in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Bhavapriya</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #6 </code>&nbsp;<i> Venus / Saturn in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Subhapantuvarali</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #2#6 </code>&nbsp;<i> Venus / Mars in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Shadvidhamargini</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #1#6 </code>&nbsp;<i> Ceres Jupiter / Saturn in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Suvarnangi</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -5-6 </code>&nbsp;<i> Neptune / Mars in Cancer</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Divyamani</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #2-5-6 </code>&nbsp;<i> Pluto / Mars in Cancer</i></p>
+<td class="base"><br />
+<p class="chakra"><input type="button" value="Rishi" onclick="openwin_rishi()" /></p>
+<p class="raga">Salagam</p>
+<p class="astro"><code> -2-5#6 </code>&nbsp;<i> Juno / Mars in Leo</i></p>
+<p class="raga">Jalarnavam</p>
+<p class="astro"><code> -5#6 </code>&nbsp;<i> Moon / Saturn in Leo</i></p>
+<p class="raga">Jhalavarali</p>
+<p class="astro"><code> -5#2#6 </code>&nbsp;<i> Juno / Mars in Leo</i></p>
+<p class="raga">Navaneetam</p>
+<p class="astro"><code> #1#6-5 </code>&nbsp;<i> Ceres / Saturn in Leo</i></p>
+<p class="raga">Pavani</p>
+<p class="astro"><code> -5=6 </code>&nbsp;<i> Vesta / Mars in Cancer</i></p>
+<p class="raga">Raghupriya</p>
+<p class="astro"><code> #2-5=6 </code>&nbsp;<i> Pluto / Mars in Cancer</i></p>
 </td>
 </tr>
 <tr>
-<td width="510" height="600" style="background-color:black;"><br />
-<p style="text-align:center;"><input type="button" value="Agni" style="border-color:transparent;background-color:Black;padding:10px;font-family:Helvetica,Sans-serif;font-size:28px;color:Olive;cursor:pointer;" onclick="openwin_agni()" /></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Gayakapriya</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -2#5 </code>&nbsp;<i> Pallas / Mercury in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Vakulabharanam</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #5 </code>&nbsp;<i> Sun / Mercury in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Mayamalavagowla</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #2#5 </code>&nbsp;<i> Mercury / Mercury in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Chakravakam</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -6 </code>&nbsp;<i> Chiron Sun / Mercury in Taurus</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Sooryakantam</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -2 </code>&nbsp;<i> Chiron Mercury / Mercury in Sagittarius</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Hatakambari</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -2#6 </code>&nbsp;<i> Mercury / Mercury in Sagittarius</i></p>
+<td class="base"><br />
+<p class="chakra"><input type="button" value="Netra" onclick="openwin_netra()" /></p>
+<p class="raga">Senavati</p>
+<p class="astro"><code> -2 </code>&nbsp;<i> Venus / Neptune in Leo</i></p>
+<p class="raga">Hanumatodi</p>
+<p class="astro"><i> Venus / Mercury in Leo</i></p>
+<p class="raga">Dhenuka</p>
+<p class="astro"><code> #2 </code>&nbsp;<i> Mercury / Chiron Mercury in Leo</i></p>
+<p class="raga">Natakapriya</p>
+<p class="astro"><code> #1 </code>&nbsp;<i> Jupiter / Mercury in Leo</i></p>
+<p class="raga">Kokilapriya</p>
+<p class="astro"><code> #1#2 </code>&nbsp;<i> Chiron Mercury / Chiron Mercury in Leo</i></p>
+<p class="raga">Roopavati</p>
+<p class="astro"><code> X1#2 </code>&nbsp;<i> Mercury / Chiron Mercury in Leo</i></p>
 </td>
-<td width="510" height="600" style="background-color:black;"><br />
-<p style="text-align:center;"><input type="button" value="Brahma" style="border-color:transparent;background-color:Black;padding:10px;font-family:Helvetica,Sans-serif;font-size:28px;color:Olive;cursor:pointer;" onclick="openwin_brahma()" /></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Dhavalambari</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -2#5#6 </code>&nbsp;<i> Venus / Neptune in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Namanarayani</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #5#6 </code>&nbsp;<i> Venus / Uranus in Leo</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Kamavardhini</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -2-5 </code>&nbsp;<i> Venus / Mars in Cancer</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Ramapriya</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #1-6 </code>&nbsp;<i> Ceres Sun / Saturn in Taurus</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Gamanasrama</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -5 </code>&nbsp;<i> Vesta / Mars in Cancer</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Viswambhari</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #2-5 </code>&nbsp;<i> Pluto / Mars in Cancer</i></p>
-</td>
-</tr>
-<tr>
-<td width="510" height="600" style="background-color:black;"><br />
-<p style="text-align:center;"><input type="button" value="Veda" style="border-color:transparent;background-color:Black;padding:10px;font-family:Helvetica,Sans-serif;font-size:28px;color:Olive;cursor:pointer;" onclick="openwin_veda()" /></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Jhankaradhwani</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -5 </code>&nbsp;<i> Jupiter / Sun in Pisces</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Natabhairavi</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><i> Moon / Sun in Pisces</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Keeravani</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #5 </code>&nbsp;<i> Mercury / Chiron Sun in Pisces</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Kharaharapriya</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><i> Jupiter / Jupiter in Libra</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Gourimanohari</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #1 </code>&nbsp;<i> Mercury / Jupiter in Libra</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Varunapriya</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #1#7 </code>&nbsp;<i> Mercury / Chiron in Libra</i></p>
-</td>
-<td width="510" height="600" style="background-color:black;"><br />
-<p style="text-align:center;"><input type="button" value="Disi" style="border-color:transparent;background-color:Black;padding:10px;font-family:Helvetica,Sans-serif;font-size:28px;color:Olive;cursor:pointer;" onclick="openwin_disi()" /></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Syamalangi</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #2-5 </code>&nbsp;<i> Saturn / Sun in Pisces</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Shanmukhapriya</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #2 </code>&nbsp;<i> Saturn / Sun in Pisces</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Simhendramadhyamam</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #2#5 </code>&nbsp;<i> Saturn / Ceres Sun in Pisces</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Hemavati</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #5 </code>&nbsp;<i> Saturn / Jupiter in Libra</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Dharmavati</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -6 </code>&nbsp;<i> Saturn / Ceres Jupiter in Cancer</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Neetimati</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #2-6 </code>&nbsp;<i> Saturn / Ceres in Cancer</i></p>
+<td class="base"><br />
+<p class="chakra"><input type="button" value="Vasu" onclick="openwin_vasu()" /></p>
+<p class="raga">Gavambodhi</p>
+<p class="astro"><code> -2#6 </code>&nbsp;<i> Venus / Neptune in Leo</i></p>
+<p class="raga">Bhavapriya</p>
+<p class="astro"><code> #6 </code>&nbsp;<i> Venus / Saturn in Leo</i></p>
+<p class="raga">Subhapantuvarali</p>
+<p class="astro"><code> #2#6 </code>&nbsp;<i> Venus / Mars in Leo</i></p>
+<p class="raga">Shadvidhamargini</p>
+<p class="astro"><code> #1#6 </code>&nbsp;<i> Ceres Jupiter / Saturn in Leo</i></p>
+<p class="raga">Suvarnangi</p>
+<p class="astro"><code> -5-6 </code>&nbsp;<i> Neptune / Mars in Cancer</i></p>
+<p class="raga">Divyamani</p>
+<p class="astro"><code> #2-5-6 </code>&nbsp;<i> Pluto / Mars in Cancer</i></p>
 </td>
 </tr>
 <tr>
-<td width="510" height="600" style="background-color:black;"><br />
-<p style="text-align:center;"><input type="button" value="Bana" style="border-color:transparent;background-color:Black;padding:10px;font-family:Helvetica,Sans-serif;font-size:28px;color:Olive;cursor:pointer;" onclick="openwin_bana()" /></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Mararanjani</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -3-4 </code>&nbsp;<i> Uranus / Sun in Taurus</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Charukesi</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -3 </code>&nbsp;<i> Sun / Sun in Taurus</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Sarasangi</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -6 </code>&nbsp;<i> Mercury / Sun in Sagittarius</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Harikambhoji</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><i> Sun / Moon in Taurus</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Sankarabharanam</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><i> Mercury / Venus in Sagittarius</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Naganandini</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #6 </code>&nbsp;<i> Mercury / Moon in Sagittarius</i></p>
+<td class="base"><br />
+<p class="chakra"><input type="button" value="Agni" onclick="openwin_agni()" /></p>
+<p class="raga">Gayakapriya</p>
+<p class="astro"><code> -2#5 </code>&nbsp;<i> Pallas / Mercury in Leo</i></p>
+<p class="raga">Vakulabharanam</p>
+<p class="astro"><code> #5 </code>&nbsp;<i> Sun / Mercury in Leo</i></p>
+<p class="raga">Mayamalavagowla</p>
+<p class="astro"><code> #2#5 </code>&nbsp;<i> Mercury / Mercury in Leo</i></p>
+<p class="raga">Chakravakam</p>
+<p class="astro"><code> -6 </code>&nbsp;<i> Chiron Sun / Mercury in Taurus</i></p>
+<p class="raga">Sooryakantam</p>
+<p class="astro"><code> -2 </code>&nbsp;<i> Chiron Mercury / Mercury in Sagittarius</i></p>
+<p class="raga">Hatakambari</p>
+<p class="astro"><code> -2#6 </code>&nbsp;<i> Mercury / Mercury in Sagittarius</i></p>
 </td>
-<td width="510" height="600" style="background-color:black;"><br />
-<p style="text-align:center;"><input type="button" value="Rudra" style="border-color:transparent;background-color:Black;padding:10px;font-family:Helvetica,Sans-serif;font-size:28px;color:Olive;cursor:pointer;" onclick="openwin_rudra()" /></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Kantamani</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -2=3 </code>&nbsp;<i> Saturn / Sun in Cancer</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Rishabhapriya</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -2-3 </code>&nbsp;<i> Saturn / Sun in Cancer</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Latangi</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -2 </code>&nbsp;<i> Saturn / Sun in Cancer</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Vachaspati</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -3 </code>&nbsp;<i> Saturn / Moon in Cancer</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Mechakalyani</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><i> Saturn / Mars in Cancer</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Chitrambhari</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #2 </code>&nbsp;<i> Pluto / Mars in Cancer</i></p>
+<td class="base"><br />
+<p class="chakra"><input type="button" value="Brahma" onclick="openwin_brahma()" /></p>
+<p class="raga">Dhavalambari</p>
+<p class="astro"><code> -2#5#6 </code>&nbsp;<i> Venus / Neptune in Leo</i></p>
+<p class="raga">Namanarayani</p>
+<p class="astro"><code> #5#6 </code>&nbsp;<i> Venus / Uranus in Leo</i></p>
+<p class="raga">Kamavardhini</p>
+<p class="astro"><code> -2-5 </code>&nbsp;<i> Venus / Mars in Cancer</i></p>
+<p class="raga">Ramapriya</p>
+<p class="astro"><code> #1-6 </code>&nbsp;<i> Ceres Sun / Saturn in Taurus</i></p>
+<p class="raga">Gamanasrama</p>
+<p class="astro"><code> -5 </code>&nbsp;<i> Vesta / Mars in Cancer</i></p>
+<p class="raga">Viswambhari</p>
+<p class="astro"><code> #2-5 </code>&nbsp;<i> Pluto / Mars in Cancer</i></p>
 </td>
 </tr>
 <tr>
-<td width="510" height="600" style="background-color:black;"><br />
-<p style="text-align:center;"><input type="button" value="Ritu" style="border-color:transparent;background-color:Black;padding:10px;font-family:Helvetica,Sans-serif;font-size:28px;color:Olive;cursor:pointer;" onclick="openwin_ritu()" /></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Yagapriya</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -3-4#6 </code>&nbsp;<i> Neptune / Venus in Taurus</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Ragavardhini</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -3#6 </code>&nbsp;<i> Sun / Uranus in Taurus</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Gangeyabhusani</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #2-6 </code>&nbsp;<i> Mercury / Pallas in Sagittarius</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Vagadheeswari</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #6 </code>&nbsp;<i> Sun / Jupiter in Taurus</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Sulini</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #2 </code>&nbsp;<i> Neptune / Venus in Sagittarius</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Chalanata</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #2#6 </code>&nbsp;<i> Mercury / Pallas in Sagittarius</i></p>
+<td class="base"><br />
+<p class="chakra"><input type="button" value="Veda" onclick="openwin_veda()" /></p>
+<p class="raga">Jhankaradhwani</p>
+<p class="astro"><code> -5 </code>&nbsp;<i> Jupiter / Sun in Pisces</i></p>
+<p class="raga">Natabhairavi</p>
+<p class="astro"><i> Moon / Sun in Pisces</i></p>
+<p class="raga">Keeravani</p>
+<p class="astro"><code> #5 </code>&nbsp;<i> Mercury / Chiron Sun in Pisces</i></p>
+<p class="raga">Kharaharapriya</p>
+<p class="astro"><i> Jupiter / Jupiter in Libra</i></p>
+<p class="raga">Gourimanohari</p>
+<p class="astro"><code> #1 </code>&nbsp;<i> Mercury / Jupiter in Libra</i></p>
+<p class="raga">Varunapriya</p>
+<p class="astro"><code> #1#7 </code>&nbsp;<i> Mercury / Chiron in Libra</i></p>
 </td>
-<td width="510" height="600" style="background-color:black;"><br />
-<p style="text-align:center;"><input type="button" value="Aditya" style="border-color:transparent;background-color:Black;padding:10px;font-family:Helvetica,Sans-serif;font-size:28px;color:Olive;cursor:pointer;" onclick="openwin_aditya()" /></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Sucharitra</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -2=3#5 </code>&nbsp;<i> Venus / Neptune in Cancer</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Jyotiswarupini</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -3#1#6 </code>&nbsp;<i> Venus / Uranus in Taurus</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Dhatuvardini</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> -2#5 </code>&nbsp;<i> Venus / Mars in Cancer</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Nasikabhusani</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #1#6 </code>&nbsp;<i> Saturn / Jupiter in Taurus</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Kosalam</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #5 </code>&nbsp;<i> Neptune / Mars in Cancer</i></p>
-<p style="text-align:center;font-family:verdana;font-size:20px;color:#c034f4;">Rasikapriya</p>
-<p style="text-align:center;font-family:arial;font-size:18px;color:#12ae50;"><code> #2#5 </code>&nbsp;<i> Pluto / Mars in Cancer</i></p>
+<td class="base"><br />
+<p class="chakra"><input type="button" value="Disi" onclick="openwin_disi()" /></p>
+<p class="raga">Syamalangi</p>
+<p class="astro"><code> #2-5 </code>&nbsp;<i> Saturn / Sun in Pisces</i></p>
+<p class="raga">Shanmukhapriya</p>
+<p class="astro"><code> #2 </code>&nbsp;<i> Saturn / Sun in Pisces</i></p>
+<p class="raga">Simhendramadhyamam</p>
+<p class="astro"><code> #2#5 </code>&nbsp;<i> Saturn / Ceres Sun in Pisces</i></p>
+<p class="raga">Hemavati</p>
+<p class="astro"><code> #5 </code>&nbsp;<i> Saturn / Jupiter in Libra</i></p>
+<p class="raga">Dharmavati</p>
+<p class="astro"><code> -6 </code>&nbsp;<i> Saturn / Ceres Jupiter in Cancer</i></p>
+<p class="raga">Neetimati</p>
+<p class="astro"><code> #2-6 </code>&nbsp;<i> Saturn / Ceres in Cancer</i></p>
+</td>
+</tr>
+<tr>
+<td class="base"><br />
+<p class="chakra"><input type="button" value="Bana" onclick="openwin_bana()" /></p>
+<p class="raga">Mararanjani</p>
+<p class="astro"><code> -3-4 </code>&nbsp;<i> Uranus / Sun in Taurus</i></p>
+<p class="raga">Charukesi</p>
+<p class="astro"><code> -3 </code>&nbsp;<i> Sun / Sun in Taurus</i></p>
+<p class="raga">Sarasangi</p>
+<p class="astro"><code> -6 </code>&nbsp;<i> Mercury / Sun in Sagittarius</i></p>
+<p class="raga">Harikambhoji</p>
+<p class="astro"><i> Sun / Moon in Taurus</i></p>
+<p class="raga">Sankarabharanam</p>
+<p class="astro"><i> Mercury / Venus in Sagittarius</i></p>
+<p class="raga">Naganandini</p>
+<p class="astro"><code> #6 </code>&nbsp;<i> Mercury / Moon in Sagittarius</i></p>
+</td>
+<td class="base"><br />
+<p class="chakra"><input type="button" value="Rudra" onclick="openwin_rudra()" /></p>
+<p class="raga">Kantamani</p>
+<p class="astro"><code> -2=3 </code>&nbsp;<i> Saturn / Sun in Cancer</i></p>
+<p class="raga">Rishabhapriya</p>
+<p class="astro"><code> -2-3 </code>&nbsp;<i> Saturn / Sun in Cancer</i></p>
+<p class="raga">Latangi</p>
+<p class="astro"><code> -2 </code>&nbsp;<i> Saturn / Sun in Cancer</i></p>
+<p class="raga">Vachaspati</p>
+<p class="astro"><code> -3 </code>&nbsp;<i> Saturn / Moon in Cancer</i></p>
+<p class="raga">Mechakalyani</p>
+<p class="astro"><i> Saturn / Mars in Cancer</i></p>
+<p class="raga">Chitrambhari</p>
+<p class="astro"><code> #2 </code>&nbsp;<i> Pluto / Mars in Cancer</i></p>
+</td>
+</tr>
+<tr>
+<td class="base"><br />
+<p class="chakra"><input type="button" value="Ritu" onclick="openwin_ritu()" /></p>
+<p class="raga">Yagapriya</p>
+<p class="astro"><code> -3-4#6 </code>&nbsp;<i> Neptune / Venus in Taurus</i></p>
+<p class="raga">Ragavardhini</p>
+<p class="astro"><code> -3#6 </code>&nbsp;<i> Sun / Uranus in Taurus</i></p>
+<p class="raga">Gangeyabhusani</p>
+<p class="astro"><code> #2-6 </code>&nbsp;<i> Mercury / Pallas in Sagittarius</i></p>
+<p class="raga">Vagadheeswari</p>
+<p class="astro"><code> #6 </code>&nbsp;<i> Sun / Jupiter in Taurus</i></p>
+<p class="raga">Sulini</p>
+<p class="astro"><code> #2 </code>&nbsp;<i> Neptune / Venus in Sagittarius</i></p>
+<p class="raga">Chalanata</p>
+<p class="astro"><code> #2#6 </code>&nbsp;<i> Mercury / Pallas in Sagittarius</i></p>
+</td>
+<td class="base"><br />
+<p class="chakra"><input type="button" value="Aditya" onclick="openwin_aditya()" /></p>
+<p class="raga">Sucharitra</p>
+<p class="astro"><code> -2=3#5 </code>&nbsp;<i> Venus / Neptune in Cancer</i></p>
+<p class="raga">Jyotiswarupini</p>
+<p class="astro"><code> -3#1#6 </code>&nbsp;<i> Venus / Uranus in Taurus</i></p>
+<p class="raga">Dhatuvardini</p>
+<p class="astro"><code> -2#5 </code>&nbsp;<i> Venus / Mars in Cancer</i></p>
+<p class="raga">Nasikabhusani</p>
+<p class="astro"><code> #1#6 </code>&nbsp;<i> Saturn / Jupiter in Taurus</i></p>
+<p class="raga">Kosalam</p>
+<p class="astro"><code> #5 </code>&nbsp;<i> Neptune / Mars in Cancer</i></p>
+<p class="raga">Rasikapriya</p>
+<p class="astro"><code> #2#5 </code>&nbsp;<i> Pluto / Mars in Cancer</i></p>
 </td>
 </tr>
 </tbody>
 </table>
-</div>
-<br />
-<br />
+<p class="attr">Copyright &#169; 2012 Reid Netterville III. All rights reserved.</p>
 </body>
 </html>
