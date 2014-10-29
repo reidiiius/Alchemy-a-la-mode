@@ -1,226 +1,121 @@
 ﻿
 body.ui1 {
-
-background:url(site/page/bg_.jpg); }
-
-
+  background: url(site/page/bg_.jpg);
+}
 div.container {
- 
-width:100%;
- 
-margin:0px; }
- 
-div.footer,div.header {
- 
-border: 1px solid #999900;
- 
-background-color: #fffff0;
- 
-padding: 2em; }
-
-
+  width: 100%;
+  margin: 0;
+}
+div.footer, div.header {
+  background-color: #fffff0;
+  padding: 12px;
+}
 div.center {
-
-text-align:center; }
-
-
+  text-align: center;
+}
 table {
-
-width: 100%; }
-
-
+  width: 100%;
+}
 table, td {
- 
-border: 0px solid transparent; }
-
-
- 
+  border: 0 solid transparent;
+}
 td {
- 
-background-color: transparent;
- 
-text-align: center;
- 
-font-family: Papyrus, Sans-serif;
- 
-font-size: 18px;
- 
-color: #999900; }
- 
- 
+  background-color: transparent;
+  text-align: center;
+  font-family: helvetica, sans-serif;
+  font-size: 18px;
+  color: #999900;
+}
 h1 {
- 
-text-align: center;
- 
-font-family: Papyrus, Sans-serif;
- 
-color: #999900;
- 
-background-color: #fffff0;
- 
-margin-top: 1%;
- 
-margin-left: 34%;
- 
-margin-right: 34%; }
- 
- 
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: helvetica, sans-serif;
+  color: #999900;
+  background-color: #fffff0;
+}
 h3 {
- 
-position: absolute;
- 
-left: 520px;
- 
-top: 92px;
- 
-font-family: Papyrus, Sans-serif;
- 
-color: #12ae50;
- 
-background-color: #fffff0; }
- 
- 
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: helvetica, sans-serif;
+  color: #12ae50;
+  background-color: #fffff0;
+}
 p {
- 
-text-align: center;
- 
-font-family: Helvetica, Sans-serif;
- 
-font-size: 14px;
- 
-color: #999900;
- 
-background-color: #fffff0;
- 
-margin-bottom: 1%;
- 
-margin-left: 28%;
- 
-margin-right: 28%; }
-
-
+  text-align: center;
+  font-family: helvetica, sans-serif;
+  font-size: 14px;
+  color: #999900;
+  background-color: #fffff0;
+}
 .form_1 {
-
-border-color:BlanchedAlmond;
-
-background-color:transparent;
-
-padding:8px;
-
-font-family:Helvetica,Sans-serif;
-
-font-size:20px;
-
-color:Sienna;
-
-cursor:pointer; }
-
-
+  border-color: BlanchedAlmond;
+  background-color: transparent;
+  padding: 8px;
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
+  color: Sienna;
+  cursor: pointer;
+}
 .form_2 {
-
-border-color:BlanchedAlmond;
-
-background-color:transparent;
-
-padding:8px;
-
-font-family:Helvetica,Sans-serif;
-
-font-size:20px;
-
-color:Chocolate;
-
-cursor:pointer; }
-
-
+  border-color: BlanchedAlmond;
+  background-color: transparent;
+  padding: 8px;
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
+  color: Chocolate;
+  cursor: pointer;
+}
 .form_3 {
-
-border-color:BlanchedAlmond;
-
-background-color:transparent;
-
-padding:6px;
-
-font-family:Helvetica,Sans-serif;
-
-font-size:18px;
-
-color:Peru;
-
-cursor:pointer; }
-
-
+  border-color: BlanchedAlmond;
+  background-color: transparent;
+  padding: 6px;
+  font-family: helvetica, sans-serif;
+  font-size: 18px;
+  color: Peru;
+  cursor: pointer;
+}
 .form_4 {
-
-border-color:BlanchedAlmond;
-
-background-color:transparent;
-
-padding:6px;
-
-font-family:Helvetica,Sans-serif;
-
-font-size:18px;
-
-color:Sienna;
-
-cursor:pointer; }
- 
- 
+  border-color: BlanchedAlmond;
+  background-color: transparent;
+  padding: 6px;
+  font-family: helvetica, sans-serif;
+  font-size: 18px;
+  color: Sienna;
+  cursor: pointer;
+}
 .logo {
- 
-float: left;
- 
-width: 134px;
- 
-height: 134px;
- 
-margin: 8px;
-
-cursor:pointer; }
- 
- 
+  float: left;
+  width: 134px;
+  height: 134px;
+  margin: 0;
+  cursor:pointer;
+}
 .seal {
- 
-float: right;
- 
-width: 84px;
- 
-height: 84px;
- 
-margin: 30px;
-
-cursor:pointer; }
- 
- 
+  float: right;
+  width: 84px;
+  height: 84px;
+  margin: 0;
+  cursor:pointer;
+}
 .mlaa {
- 
-float: left;
- 
-width: 48px;
- 
-height: 48px;
- 
-margin: 0px;
-
-cursor:pointer; }
- 
- 
+  float: left;
+  width: 48px;
+  height: 48px;
+  margin: 0;
+  cursor:pointer;
+}
 .aalm {
- 
-float: right;
- 
-width: 48px;
- 
-height: 48px;
- 
-margin: 0px;
-
-cursor:pointer; }
-
-
+  float: right;
+  width: 48px;
+  height: 48px;
+  margin: 0;
+  cursor:pointer;
+}
 #pntr { 
-
-cursor:pointer; }
-
+  cursor: pointer;
+}
 
