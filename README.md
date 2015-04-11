@@ -7,5 +7,5 @@ Music notation for harmonic and rhythmic transmutations
 
 Unpack the zip file, then click on **index.html**
 
-> Copyright &#169; 2014 Reid Netterville III.
+> Copyright &#169; 2014-2015 Reid Netterville III
 

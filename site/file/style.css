@@ -17,7 +17,7 @@ table {
   width: 100%;
 }
 table, td {
-  border: 0 solid transparent;
+  border: 0;
 }
 td {
   background-color: transparent;
