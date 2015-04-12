@@ -8,7 +8,7 @@ div.container {
 }
 div.footer, div.header {
   background-color: #fffff0;
-  padding: 12px;
+  padding: 1em;
 }
 div.center {
   text-align: center;

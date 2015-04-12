@@ -1,17 +1,11 @@
 
  {
   "name": "Alchemyalamode",
-  "version": "2.4.0",
-  "manifest_version": 13,
+  "version": "2.4.1",
+  "manifest_version": 14,
   "description": "Alchemical music notation",
   "author": "Reid Netterville III",
   "default locale": "en",
-  "icons": { "16": "icon/16.png",
-             "27": "icon/27.ico",
-             "32": "icon/32.png",
-             "48": "icon/48.ico",
-             "72": "icon/72.png",
-            "100": "icon/100.png" },
   "homepage url": "https://github.com/reidiiius/alchemyalamode"
  } 
 
