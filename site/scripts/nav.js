@@ -4,19 +4,19 @@ function goBack() {
 }
 
 function bgChg(qp) {
- document.body.background=bg;
+ document.body.background = qp;
 }
 
 function getDoc(qp) {
-  window.location.assign(pg);
+  window.location.assign(qp);
 }
 
 function openWin(qp) {
-  window.open(pg,'_blank','resizable=yes,width=400,height=400');
+  window.open(qp,'_blank','resizable=yes,width=400,height=400');
 }
 
 function openWinS(qp) {
-  window.open(pg,'_blank','scrollbars=yes,resizable=yes,width=400,height=400');
+  window.open(qp,'_blank','scrollbars=yes,resizable=yes,width=400,height=400');
 }
 
 
