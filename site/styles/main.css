@@ -1,92 +1,45 @@
 ﻿
-html {
-  margin: 0;
-  padding: 0;
+body {
+  margin:0;
+  padding:0;
+  background-color:#fffff0;
 }
-body.ui {
-  background: url('site/page/bg_.jpg');
+#header {
+  height:150px;
+  background-color:#fffff0;
 }
-div.container {
-  width: 100%;
-  text-align: center;
-  font-family: helvetica, sans-serif;
+#logo {
+  float:left;
 }
-div.header {
-  height:136px;
-  background-color: #fffff0;
+#seal {
+  float:right;
 }
-div.footer {
-  background-color: #fffff0;
-  padding: 12px;
+h1, h3 {
+  margin:0;
+  padding:10px;
+  text-align:center;
+  font-family:sans-serif;
 }
-div.center {
-  text-align: center;
+.title {
+  color:#008000;
 }
-table {
-  width: 100%;
+.subtxt {
+  color:#808000;
 }
-table, td {
-  border-collapse: collapse;
+#content {
+  height:380px;
+  background-color:#fffff0;
 }
-td {
-  text-align: center;
-  font-size: 18px;
-  color: #999900;
+#footer {
+  position:relative;
+  height:80px;
+  background-color:#fffff0;
 }
-h1 {
-  margin: 0 auto 0 auto;
-  padding: 0;
-  width: 340px;
-  line-height: 2em;
-  color: #999900;
-}
-h3 {
-  margin: 0 auto 0 auto;
-  padding: 0;
-  width: 240px;
-  color: #12ae50;
-}
-p.attr {
-  text-align: center;
-  font-size: 14px;
-  color: #999900;
-}
-input, img {
-  cursor: pointer;
-}
-input {
-  border-color: BlanchedAlmond;
-  background-color: transparent;
-}
-.form_A {
-  padding: 8px;
-  font-size: 20px;
-  color: Sienna;
-}
-.form_B {
-  padding: 6px;
-  font-size: 18px;
-  color: Peru;
-}
-.logo {
-  float: left;
-  width: 134px;
-  height: 134px;
-}
-.seal {
-  float: right;
-  width: 84px;
-  height: 84px;
-  margin: 20px;
-}
-.mlaa {
-  float: left;
-  width: 48px;
-  height: 48px;
-}
-.aalm {
-  float: right;
-  width: 48px;
-  height: 48px;
+.attr {
+  padding:20px 0 0 0;
+  text-align:center;
+  font-family:sans-serif;
+  font-size:14px;
+  color:#2f4f4f;
 }
 
