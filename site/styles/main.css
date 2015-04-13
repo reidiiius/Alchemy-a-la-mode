@@ -1,12 +1,21 @@
 ﻿
-body.ui1 {
-  background: url(site/page/bg_.jpg);
+html {
+  margin: 0;
+  padding: 0;
+}
+body.ui {
+  background: url('site/page/bg_.jpg');
 }
 div.container {
   width: 100%;
-  margin: 0;
+  text-align: center;
+  font-family: helvetica, sans-serif;
 }
-div.footer, div.header {
+div.header {
+  height:136px;
+  background-color: #fffff0;
+}
+div.footer {
   background-color: #fffff0;
   padding: 12px;
 }
@@ -17,105 +26,67 @@ table {
   width: 100%;
 }
 table, td {
-  border: 0;
+  border-collapse: collapse;
 }
 td {
-  background-color: transparent;
   text-align: center;
-  font-family: helvetica, sans-serif;
   font-size: 18px;
   color: #999900;
 }
 h1 {
+  margin: 0 auto 0 auto;
+  padding: 0;
   width: 340px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-family: helvetica, sans-serif;
+  line-height: 2em;
   color: #999900;
-  background-color: #fffff0;
 }
 h3 {
+  margin: 0 auto 0 auto;
+  padding: 0;
   width: 240px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-family: helvetica, sans-serif;
   color: #12ae50;
-  background-color: #fffff0;
 }
-p {
+p.attr {
   text-align: center;
-  font-family: helvetica, sans-serif;
   font-size: 14px;
   color: #999900;
-  background-color: #fffff0;
 }
-.form_1 {
+input, img {
+  cursor: pointer;
+}
+input {
   border-color: BlanchedAlmond;
   background-color: transparent;
+}
+.form_A {
   padding: 8px;
-  font-family: helvetica, sans-serif;
   font-size: 20px;
   color: Sienna;
-  cursor: pointer;
 }
-.form_2 {
-  border-color: BlanchedAlmond;
-  background-color: transparent;
-  padding: 8px;
-  font-family: helvetica, sans-serif;
-  font-size: 20px;
-  color: Chocolate;
-  cursor: pointer;
-}
-.form_3 {
-  border-color: BlanchedAlmond;
-  background-color: transparent;
+.form_B {
   padding: 6px;
-  font-family: helvetica, sans-serif;
   font-size: 18px;
   color: Peru;
-  cursor: pointer;
-}
-.form_4 {
-  border-color: BlanchedAlmond;
-  background-color: transparent;
-  padding: 6px;
-  font-family: helvetica, sans-serif;
-  font-size: 18px;
-  color: Sienna;
-  cursor: pointer;
 }
 .logo {
   float: left;
   width: 134px;
   height: 134px;
-  margin: 0;
-  cursor:pointer;
 }
 .seal {
   float: right;
   width: 84px;
   height: 84px;
-  margin: 0;
-  cursor:pointer;
+  margin: 20px;
 }
 .mlaa {
   float: left;
   width: 48px;
   height: 48px;
-  margin: 0;
-  cursor:pointer;
 }
 .aalm {
   float: right;
   width: 48px;
   height: 48px;
-  margin: 0;
-  cursor:pointer;
-}
-#pntr { 
-  cursor: pointer;
 }
 
