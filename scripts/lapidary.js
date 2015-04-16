@@ -3,7 +3,7 @@
 
 window.onload = function() {
 
-// setup enviroment
+// setup environment
 
 var comPosition = document.getElementById("seascape");
 var vista = comPosition.getContext("2d");
@@ -236,28 +236,20 @@ var doubleBarChar = "\u2551";
 // upper note beam
 
   vista.beginPath();
-  vista.moveTo(552, 195);
-  vista.lineTo(552, 198);
-  vista.lineTo(640, 191);
-  vista.lineTo(640, 188);
-  vista.closePath();
+  vista.moveTo(552, 197);
+  vista.lineTo(640, 190);
+  vista.lineWidth = 4;
   vista.strokeStyle = noteStemColor;
   vista.stroke();
-  vista.fillStyle = noteStemColor;
-  vista.fill();
 
 // lower note beam
 
   vista.beginPath();
-  vista.moveTo(552, 395);
-  vista.lineTo(552, 398);
-  vista.lineTo(640, 391);
-  vista.lineTo(640, 388);
-  vista.closePath();
+  vista.moveTo(552, 397);
+  vista.lineTo(640, 390);
+  vista.lineWidth = 4;
   vista.strokeStyle = noteStemColor;
   vista.stroke();
-  vista.fillStyle = noteStemColor;
-  vista.fill();
 
 // upper flags
 
