@@ -4,6 +4,7 @@
 window.onload = function() {
 
 // setup enviroment
+
 var comPosition = document.getElementById("seascape");
 var vista = comPosition.getContext("2d");
 
@@ -38,6 +39,7 @@ var doubleBarColor = "DarkGrey";
 var doubleBarChar = "\u2551";
 
 // demarcate canvas
+
   vista.beginPath();
   vista.moveTo(0, 0);
   vista.lineTo(0, 630);
@@ -277,7 +279,7 @@ var doubleBarChar = "\u2551";
   vista.fillStyle = noteFlagColor;
   vista.fillText(noteFlagChar, 819, 373);
 
-// upper eigth Rests
+// upper eighth Rests
 
   vista.font = noteRestStyle;
   vista.fillStyle = noteRestColor;
@@ -287,7 +289,7 @@ var doubleBarChar = "\u2551";
   vista.fillStyle = noteRestColor;
   vista.fillText(noteRestChar, 777, 165);
 
-// lower eigth Rests
+// lower eighth Rests
 
   vista.font = noteRestStyle;
   vista.fillStyle = noteRestColor;
