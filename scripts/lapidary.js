@@ -22,7 +22,8 @@ var noteStemChar = "\x7C";
 
 var noteFlagStyle = "3em monospace";
 var noteFlagColor = "LightSeaGreen";
-var noteFlagChar = "\x2F";
+var highFlagChar = "\x5C";
+var downFlagChar = "\x2F";
 
 var noteRestStyle = "2.5em monospace";
 var noteRestColor = "CadetBlue";
@@ -39,6 +40,11 @@ var singleBarChar = "\u2502";
 var doubleBarStyle = "4em monospace";
 var doubleBarColor = barColor;
 var doubleBarChar = "\u2551";
+
+var acciStyle = "2.5em monospace";
+var acciColor = "DarkGoldenrod";
+var flatChar = "\x62";
+var sharpChar = "\x23";
 
 var stellaStyle = "3em monospace";
 var stellaColor = "Olive";
@@ -172,6 +178,10 @@ var stellaColor = "Olive";
 
   vista.font = noteRestStyle;
   vista.fillStyle = noteRestColor;
+  vista.fillText(noteRestChar, 355, 365);
+
+  vista.font = noteRestStyle;
+  vista.fillStyle = noteRestColor;
   vista.fillText(noteRestChar, 685, 365);
 
   vista.font = noteRestStyle;
@@ -200,21 +210,25 @@ var stellaColor = "Olive";
 
   vista.font = noteFlagStyle;
   vista.fillStyle = noteFlagColor;
-  vista.fillText(noteFlagChar, 729, 180);
+  vista.fillText(downFlagChar, 729, 180);
 
   vista.font = noteFlagStyle;
   vista.fillStyle = noteFlagColor;
-  vista.fillText(noteFlagChar, 819, 173);
+  vista.fillText(downFlagChar, 819, 173);
 
 // lower flags
 
   vista.font = noteFlagStyle;
   vista.fillStyle = noteFlagColor;
-  vista.fillText(noteFlagChar, 729, 380);
+  vista.fillText(highFlagChar, 400, 342);
 
   vista.font = noteFlagStyle;
   vista.fillStyle = noteFlagColor;
-  vista.fillText(noteFlagChar, 819, 373);
+  vista.fillText(downFlagChar, 729, 380);
+
+  vista.font = noteFlagStyle;
+  vista.fillStyle = noteFlagColor;
+  vista.fillText(downFlagChar, 819, 373);
 
 // upper note stems
 
@@ -254,7 +268,7 @@ var stellaColor = "Olive";
 
   vista.font = noteStemStyle;
   vista.fillStyle = noteStemColor;
-  vista.fillText(noteStemChar, 363, 352);
+  vista.fillText(noteStemChar, 390, 352);
 
   vista.font = noteStemStyle;
   vista.fillStyle = noteStemColor;
@@ -312,9 +326,13 @@ var stellaColor = "Olive";
   vista.fillStyle = noteHeadColor;
   vista.fillText(noteHeadDark, 290, 379);
 
+  vista.font = acciStyle;
+  vista.fillStyle = acciColor;
+  vista.fillText(sharpChar, 375, 376);
+
   vista.font = noteHeadStyle;
   vista.fillStyle = noteHeadColor;
-  vista.fillText(noteHeadDark, 375, 372);
+  vista.fillText(noteHeadDark, 402, 372);
 
   vista.font = noteHeadStyle;
   vista.fillStyle = noteHeadColor;
@@ -370,31 +388,31 @@ var stellaColor = "Olive";
 
   vista.font = stellaStyle;
   vista.fillStyle = stellaColor;
-  vista.fillText("\u2644\u264B", 275, 288);
+  vista.fillText("\u2646\u264B", 275, 288);
 
   vista.font = stellaStyle;
   vista.fillStyle = stellaColor;
-  vista.fillText("\u2609\u2649", 360, 288);
+  vista.fillText("\u2642\u2648", 380, 288);
 
   vista.font = stellaStyle;
   vista.fillStyle = stellaColor;
-  vista.fillText("\u263D\u2653", 445, 288);
+  vista.fillText("\u263F\u2653", 445, 288);
 
   vista.font = stellaStyle;
   vista.fillStyle = stellaColor;
-  vista.fillText("\u2642\u2651", 535, 288);
+  vista.fillText("\u2643\u2651", 535, 288);
 
   vista.font = stellaStyle;
   vista.fillStyle = stellaColor;
-  vista.fillText("\u263F\u2650", 625, 288);
+  vista.fillText("\u2645\u2650", 625, 288);
 
   vista.font = stellaStyle;
   vista.fillStyle = stellaColor;
-  vista.fillText("\u2643\u264E", 715, 288);
+  vista.fillText("\u2644\u264E", 715, 288);
 
   vista.font = stellaStyle;
   vista.fillStyle = stellaColor;
-  vista.fillText("\u2640\u264C", 805, 288);
+  vista.fillText("\u2609\u264C", 805, 288);
 
 };
 
