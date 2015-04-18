@@ -9,34 +9,39 @@ var comPosition = document.getElementById("seascape");
 var vista = comPosition.getContext("2d");
 
 var lineColor = "DarkSlateGrey";
+var barColor = "DarkSeaGreen";
+var meterColor = "Sienna";
 
 var noteHeadStyle = "2em monospace";
-var noteHeadColor = "Olive";
+var noteHeadColor = "SteelBlue";
 var noteHeadDark = "\u25CF";
 
 var noteStemStyle = "4em monospace";
-var noteStemColor = "Olive";
+var noteStemColor = "DarkCyan";
 var noteStemChar = "\x7C";
 
 var noteFlagStyle = "3em monospace";
-var noteFlagColor = "Olive";
+var noteFlagColor = "LightSeaGreen";
 var noteFlagChar = "\x2F";
 
 var noteRestStyle = "2.5em monospace";
-var noteRestColor = "Olive";
+var noteRestColor = "CadetBlue";
 var noteRestChar = "\x37";
 
 var bellClaveStyle = "4.75em monospace";
-var bellClaveColor = "SaddleBrown";
+var bellClaveColor = meterColor;
 var bellClaveChar = "\xBE";
 
 var singleBarStyle = "4em monospace";
-var singleBarColor = "DarkGrey";
+var singleBarColor = barColor;
 var singleBarChar = "\u2502";
 
 var doubleBarStyle = "4em monospace";
-var doubleBarColor = "DarkGrey";
+var doubleBarColor = barColor;
 var doubleBarChar = "\u2551";
+
+var stellaStyle = "3em monospace";
+var stellaColor = "Olive";
 
 // demarcate canvas
 
@@ -113,65 +118,103 @@ var doubleBarChar = "\u2551";
   vista.strokeStyle = lineColor;
   vista.stroke();
 
-// upper note heads
+// upper measure bars
 
-  vista.font = noteHeadStyle;
-  vista.fillStyle = noteHeadColor;
-  vista.fillText(noteHeadDark, 290, 179);
+  vista.font = singleBarStyle;
+  vista.fillStyle = singleBarColor;
+  vista.fillText(singleBarChar, 200, 166);
 
-  vista.font = noteHeadStyle;
-  vista.fillStyle = noteHeadColor;
-  vista.fillText(noteHeadDark, 375, 172);
+  vista.font = singleBarStyle;
+  vista.fillStyle = singleBarColor;
+  vista.fillText(singleBarChar, 495, 166);
 
-  vista.font = noteHeadStyle;
-  vista.fillStyle = noteHeadColor;
-  vista.fillText(noteHeadDark, 460, 164);
+  vista.font = doubleBarStyle;
+  vista.fillStyle = doubleBarColor;
+  vista.fillText(doubleBarChar, 888, 166);
 
-  vista.font = noteHeadStyle;
-  vista.fillStyle = noteHeadColor;
-  vista.fillText(noteHeadDark, 550, 156);
+// lower measure bars
 
-  vista.font = noteHeadStyle;
-  vista.fillStyle = noteHeadColor;
-  vista.fillText(noteHeadDark, 640, 148);
+  vista.font = singleBarStyle;
+  vista.fillStyle = singleBarColor;
+  vista.fillText(singleBarChar, 200, 366);
 
-  vista.font = noteHeadStyle;
-  vista.fillStyle = noteHeadColor;
-  vista.fillText(noteHeadDark, 730, 141);
+  vista.font = singleBarStyle;
+  vista.fillStyle = singleBarColor;
+  vista.fillText(singleBarChar, 495, 366);
 
-  vista.font = noteHeadStyle;
-  vista.fillStyle = noteHeadColor;
-  vista.fillText(noteHeadDark, 820, 134);
+  vista.font = doubleBarStyle;
+  vista.fillStyle = doubleBarColor;
+  vista.fillText(doubleBarChar, 888, 366);
 
-// lower note heads
+// upper time signature
 
-  vista.font = noteHeadStyle;
-  vista.fillStyle = noteHeadColor;
-  vista.fillText(noteHeadDark, 290, 379);
+  vista.font = bellClaveStyle;
+  vista.fillStyle = bellClaveColor;
+  vista.fillText(bellClaveChar, 220, 171);
 
-  vista.font = noteHeadStyle;
-  vista.fillStyle = noteHeadColor;
-  vista.fillText(noteHeadDark, 375, 372);
+// lower time signature
 
-  vista.font = noteHeadStyle;
-  vista.fillStyle = noteHeadColor;
-  vista.fillText(noteHeadDark, 460, 364);
+  vista.font = bellClaveStyle;
+  vista.fillStyle = bellClaveColor;
+  vista.fillText(bellClaveChar, 220, 371);
 
-  vista.font = noteHeadStyle;
-  vista.fillStyle = noteHeadColor;
-  vista.fillText(noteHeadDark, 550, 356);
+// upper eighth Rests
 
-  vista.font = noteHeadStyle;
-  vista.fillStyle = noteHeadColor;
-  vista.fillText(noteHeadDark, 640, 348);
+  vista.font = noteRestStyle;
+  vista.fillStyle = noteRestColor;
+  vista.fillText(noteRestChar, 685, 165);
 
-  vista.font = noteHeadStyle;
-  vista.fillStyle = noteHeadColor;
-  vista.fillText(noteHeadDark, 730, 341);
+  vista.font = noteRestStyle;
+  vista.fillStyle = noteRestColor;
+  vista.fillText(noteRestChar, 777, 165);
 
-  vista.font = noteHeadStyle;
-  vista.fillStyle = noteHeadColor;
-  vista.fillText(noteHeadDark, 820, 334);
+// lower eighth Rests
+
+  vista.font = noteRestStyle;
+  vista.fillStyle = noteRestColor;
+  vista.fillText(noteRestChar, 685, 365);
+
+  vista.font = noteRestStyle;
+  vista.fillStyle = noteRestColor;
+  vista.fillText(noteRestChar, 777, 365);
+
+// upper note beam
+
+  vista.beginPath();
+  vista.moveTo(552, 197);
+  vista.lineTo(640, 190);
+  vista.lineWidth = 4;
+  vista.strokeStyle = noteFlagColor;
+  vista.stroke();
+
+// lower note beam
+
+  vista.beginPath();
+  vista.moveTo(552, 397);
+  vista.lineTo(640, 390);
+  vista.lineWidth = 4;
+  vista.strokeStyle = noteFlagColor;
+  vista.stroke();
+
+// upper flags
+
+  vista.font = noteFlagStyle;
+  vista.fillStyle = noteFlagColor;
+  vista.fillText(noteFlagChar, 729, 180);
+
+  vista.font = noteFlagStyle;
+  vista.fillStyle = noteFlagColor;
+  vista.fillText(noteFlagChar, 819, 173);
+
+// lower flags
+
+  vista.font = noteFlagStyle;
+  vista.fillStyle = noteFlagColor;
+  vista.fillText(noteFlagChar, 729, 380);
+
+  vista.font = noteFlagStyle;
+  vista.fillStyle = noteFlagColor;
+  vista.fillText(noteFlagChar, 819, 373);
 
 // upper note stems
 
@@ -233,103 +276,125 @@ var doubleBarChar = "\u2551";
   vista.fillStyle = noteStemColor;
   vista.fillText(noteStemChar, 808, 366);
 
-// upper note beam
+// upper note heads
 
-  vista.beginPath();
-  vista.moveTo(552, 197);
-  vista.lineTo(640, 190);
-  vista.lineWidth = 4;
-  vista.strokeStyle = noteStemColor;
-  vista.stroke();
+  vista.font = noteHeadStyle;
+  vista.fillStyle = noteHeadColor;
+  vista.fillText(noteHeadDark, 290, 179);
 
-// lower note beam
+  vista.font = noteHeadStyle;
+  vista.fillStyle = noteHeadColor;
+  vista.fillText(noteHeadDark, 375, 172);
 
-  vista.beginPath();
-  vista.moveTo(552, 397);
-  vista.lineTo(640, 390);
-  vista.lineWidth = 4;
-  vista.strokeStyle = noteStemColor;
-  vista.stroke();
+  vista.font = noteHeadStyle;
+  vista.fillStyle = noteHeadColor;
+  vista.fillText(noteHeadDark, 460, 164);
 
-// upper flags
+  vista.font = noteHeadStyle;
+  vista.fillStyle = noteHeadColor;
+  vista.fillText(noteHeadDark, 550, 156);
 
-  vista.font = noteFlagStyle;
-  vista.fillStyle = noteFlagColor;
-  vista.fillText(noteFlagChar, 729, 180);
+  vista.font = noteHeadStyle;
+  vista.fillStyle = noteHeadColor;
+  vista.fillText(noteHeadDark, 640, 148);
 
-  vista.font = noteFlagStyle;
-  vista.fillStyle = noteFlagColor;
-  vista.fillText(noteFlagChar, 819, 173);
+  vista.font = noteHeadStyle;
+  vista.fillStyle = noteHeadColor;
+  vista.fillText(noteHeadDark, 730, 141);
 
-// lower flags
+  vista.font = noteHeadStyle;
+  vista.fillStyle = noteHeadColor;
+  vista.fillText(noteHeadDark, 820, 134);
 
-  vista.font = noteFlagStyle;
-  vista.fillStyle = noteFlagColor;
-  vista.fillText(noteFlagChar, 729, 380);
+// lower note heads
 
-  vista.font = noteFlagStyle;
-  vista.fillStyle = noteFlagColor;
-  vista.fillText(noteFlagChar, 819, 373);
+  vista.font = noteHeadStyle;
+  vista.fillStyle = noteHeadColor;
+  vista.fillText(noteHeadDark, 290, 379);
 
-// upper eighth Rests
+  vista.font = noteHeadStyle;
+  vista.fillStyle = noteHeadColor;
+  vista.fillText(noteHeadDark, 375, 372);
 
-  vista.font = noteRestStyle;
-  vista.fillStyle = noteRestColor;
-  vista.fillText(noteRestChar, 685, 165);
+  vista.font = noteHeadStyle;
+  vista.fillStyle = noteHeadColor;
+  vista.fillText(noteHeadDark, 460, 364);
 
-  vista.font = noteRestStyle;
-  vista.fillStyle = noteRestColor;
-  vista.fillText(noteRestChar, 777, 165);
+  vista.font = noteHeadStyle;
+  vista.fillStyle = noteHeadColor;
+  vista.fillText(noteHeadDark, 550, 356);
 
-// lower eighth Rests
+  vista.font = noteHeadStyle;
+  vista.fillStyle = noteHeadColor;
+  vista.fillText(noteHeadDark, 640, 348);
 
-  vista.font = noteRestStyle;
-  vista.fillStyle = noteRestColor;
-  vista.fillText(noteRestChar, 685, 365);
+  vista.font = noteHeadStyle;
+  vista.fillStyle = noteHeadColor;
+  vista.fillText(noteHeadDark, 730, 341);
 
-  vista.font = noteRestStyle;
-  vista.fillStyle = noteRestColor;
-  vista.fillText(noteRestChar, 777, 365);
+  vista.font = noteHeadStyle;
+  vista.fillStyle = noteHeadColor;
+  vista.fillText(noteHeadDark, 820, 334);
 
-// upper time signature
+// upper sigils
 
-  vista.font = bellClaveStyle;
-  vista.fillStyle = bellClaveColor;
-  vista.fillText(bellClaveChar, 220, 171);
+  vista.font = stellaStyle;
+  vista.fillStyle = stellaColor;
+  vista.fillText("\u2644\u264B", 275, 85);
 
-// lower time signature
+  vista.font = stellaStyle;
+  vista.fillStyle = stellaColor;
+  vista.fillText("\u2609\u2649", 360, 85);
 
-  vista.font = bellClaveStyle;
-  vista.fillStyle = bellClaveColor;
-  vista.fillText(bellClaveChar, 220, 371);
+  vista.font = stellaStyle;
+  vista.fillStyle = stellaColor;
+  vista.fillText("\u263D\u2653", 445, 85);
 
-// upper measure bars
+  vista.font = stellaStyle;
+  vista.fillStyle = stellaColor;
+  vista.fillText("\u2642\u2651", 535, 85);
 
-  vista.font = singleBarStyle;
-  vista.fillStyle = singleBarColor;
-  vista.fillText(singleBarChar, 200, 165);
+  vista.font = stellaStyle;
+  vista.fillStyle = stellaColor;
+  vista.fillText("\u263F\u2650", 625, 85);
 
-  vista.font = singleBarStyle;
-  vista.fillStyle = singleBarColor;
-  vista.fillText(singleBarChar, 495, 165);
+  vista.font = stellaStyle;
+  vista.fillStyle = stellaColor;
+  vista.fillText("\u2643\u264E", 715, 85);
 
-  vista.font = doubleBarStyle;
-  vista.fillStyle = doubleBarColor;
-  vista.fillText(doubleBarChar, 888, 165);
+  vista.font = stellaStyle;
+  vista.fillStyle = stellaColor;
+  vista.fillText("\u2640\u264C", 805, 85);
 
-// lower measure bars
+// lower sigils
 
-  vista.font = singleBarStyle;
-  vista.fillStyle = singleBarColor;
-  vista.fillText(singleBarChar, 200, 365);
+  vista.font = stellaStyle;
+  vista.fillStyle = stellaColor;
+  vista.fillText("\u2644\u264B", 275, 288);
 
-  vista.font = singleBarStyle;
-  vista.fillStyle = singleBarColor;
-  vista.fillText(singleBarChar, 495, 365);
+  vista.font = stellaStyle;
+  vista.fillStyle = stellaColor;
+  vista.fillText("\u2609\u2649", 360, 288);
 
-  vista.font = doubleBarStyle;
-  vista.fillStyle = doubleBarColor;
-  vista.fillText(doubleBarChar, 888, 365);
+  vista.font = stellaStyle;
+  vista.fillStyle = stellaColor;
+  vista.fillText("\u263D\u2653", 445, 288);
+
+  vista.font = stellaStyle;
+  vista.fillStyle = stellaColor;
+  vista.fillText("\u2642\u2651", 535, 288);
+
+  vista.font = stellaStyle;
+  vista.fillStyle = stellaColor;
+  vista.fillText("\u263F\u2650", 625, 288);
+
+  vista.font = stellaStyle;
+  vista.fillStyle = stellaColor;
+  vista.fillText("\u2643\u264E", 715, 288);
+
+  vista.font = stellaStyle;
+  vista.fillStyle = stellaColor;
+  vista.fillText("\u2640\u264C", 805, 288);
 
 };
 
