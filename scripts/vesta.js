@@ -205,7 +205,7 @@ var Sigil = Object.create(Tranquility_Base.Constellation);
   Vega.font = Note.acciStyle;
   Vega.fillStyle = Note.acciColor;
 
-  Vega.fillText(Note.flatChar, 345, 374);
+  Vega.fillText(Note.flatChar, 345, 372);
 
 // upper sigils
 

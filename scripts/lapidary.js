@@ -38,12 +38,12 @@ var Tranquility_Base = {
 
       restStyle    : "2.5em 'DejaVu Sans Mono', monospace",
       restColor    : "CadetBlue",
-      rest4Char     : "\u03B6",
-      rest8Char     : "\u03B9",
+      rest4Char    : "\u03BE",
+      rest8Char    : "\u03B6",
 
       acciStyle    : "2.5em 'DejaVu Sans Mono', monospace",
       acciColor    : "DarkGoldenrod",
-      flatChar     : "\x62",
+      flatChar     : "\u042C",
       sharpChar    : "\x23"
 
     },

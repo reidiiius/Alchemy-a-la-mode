@@ -117,7 +117,7 @@ var Sigil = Object.create(Tranquility_Base.Constellation);
 
 // lower rests
 
-  Vega.fillText(Note.rest8Char, 355, 365);
+  Vega.fillText(Note.rest8Char, 352, 365);
   Vega.fillText(Note.rest8Char, 685, 365);
   Vega.fillText(Note.rest8Char, 777, 365);
 
