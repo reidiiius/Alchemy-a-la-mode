@@ -5,7 +5,13 @@ body {
   background-color:#fffff0;
 }
 #logo {
-  float:left;
+  position:fixed;
+  left:0;
+  top:0;
+}
+#etude {
+  width:1120px;
+  margin:0 auto 0 auto;
 }
 canvas {
   border:0;

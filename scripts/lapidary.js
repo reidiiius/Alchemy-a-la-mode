@@ -7,15 +7,15 @@ var Tranquility_Base = {
 
       lineColor      : "DarkSlateGrey",
 
-      bellClaveStyle : "4.75em monospace",
+      bellClaveStyle : "4.75em 'DejaVu Sans Mono', monospace",
       bellClaveColor : "Sienna",
       bellClaveChar  : "\xBE",
 
-      singleBarStyle : "4em monospace",
+      singleBarStyle : "4em 'DejaVu Sans Mono', monospace",
       singleBarColor : "DarkSeaGreen",
       singleBarChar  : "\u2502",
 
-      doubleBarStyle : "4em monospace",
+      doubleBarStyle : "4em 'DejaVu Sans Mono', monospace",
       doubleBarColor : "DarkSeaGreen",
       doubleBarChar  : "\u2551"
 
@@ -23,24 +23,25 @@ var Tranquility_Base = {
 
     Orchestration: {
 
-      headStyle    : "2em monospace",
+      headStyle    : "2em 'DejaVu Sans Mono', monospace",
       headColor    : "SteelBlue",
       headDark     : "\u25CF",
 
-      stemStyle    : "4em monospace",
+      stemStyle    : "4em 'DejaVu Sans Mono', monospace",
       stemColor    : "DarkCyan",
       stemChar     : "\x7C",
 
-      flagStyle    : "3em monospace",
+      flagStyle    : "3em 'DejaVu Sans Mono', monospace",
       flagColor    : "LightSeaGreen",
       highFlagChar : "\x5C",
       downFlagChar : "\x2F",
 
-      restStyle    : "2.5em monospace",
+      restStyle    : "2.5em 'DejaVu Sans Mono', monospace",
       restColor    : "CadetBlue",
-      restChar     : "\x37",
+      rest4Char     : "\u03B6",
+      rest8Char     : "\u03B9",
 
-      acciStyle    : "2.5em monospace",
+      acciStyle    : "2.5em 'DejaVu Sans Mono', monospace",
       acciColor    : "DarkGoldenrod",
       flatChar     : "\x62",
       sharpChar    : "\x23"
@@ -49,7 +50,7 @@ var Tranquility_Base = {
 
     Constellation: {
 
-      stellarStyle : "3em monospace",
+      stellarStyle : "3em 'DejaVu Sans Mono', monospace",
       stellarColor : "Olive",
 
       juno    : "\u26B5",
