@@ -5,16 +5,33 @@ body {
   background-color:#fffff0;
 }
 #logo {
-  position:fixed;
+  position:absolute;
   left:0;
   top:0;
 }
 #etude {
   width:1120px;
+  height:630px;
   margin:0 auto 0 auto;
+  border:1px solid #f5deb3;
 }
 canvas {
   border:0;
   font-size:12px;
+}
+#kalyani {
+  position:relative;
+  left:193px;
+  top:60px;
+}
+#kosalam {
+  position:relative;
+  left:193px;
+  top:60px;
+}
+#gamanasrama {
+  position:relative;
+  left:193px;
+  top:60px;
 }
 

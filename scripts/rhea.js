@@ -1,11 +1,11 @@
 
 "use strict";
 
-function k5NpFe() {
+function n0PbFe() {
 
 // environment
 
-var MusicalComposition = document.getElementById("kosalam");
+var MusicalComposition = document.getElementById("kalyani");
 var Vega = MusicalComposition.getContext("2d");
 
 var Staff = Object.create(Tranquility_Base.Arrangment);
@@ -75,9 +75,8 @@ var Sigil = Object.create(Tranquility_Base.Constellation);
   Vega.font = Note.restStyle;
   Vega.fillStyle = Note.restColor;
 
-  Vega.fillText(Note.rest8Char, 152, 115);
   Vega.fillText(Note.rest8Char, 485, 115);
-  Vega.fillText(Note.rest8Char, 577, 115);
+  Vega.fillText(Note.rest8Char, 575, 115);
 
 // beams
 
@@ -94,7 +93,6 @@ var Sigil = Object.create(Tranquility_Base.Constellation);
   Vega.font = Note.flagStyle;
   Vega.fillStyle = Note.flagColor;
 
-  Vega.fillText(Note.highFlagChar, 210,  92);
   Vega.fillText(Note.downFlagChar, 529, 130);
   Vega.fillText(Note.downFlagChar, 619, 123);
 
@@ -104,7 +102,7 @@ var Sigil = Object.create(Tranquility_Base.Constellation);
   Vega.fillStyle = Note.stemColor;
 
   Vega.fillText(Note.stemChar,  88, 108);
-  Vega.fillText(Note.stemChar, 200, 102);
+  Vega.fillText(Note.stemChar, 174, 102);
   Vega.fillText(Note.stemChar, 258,  94);
   Vega.fillText(Note.stemChar, 338, 137);
   Vega.fillText(Note.stemChar, 428, 130);
@@ -117,32 +115,25 @@ var Sigil = Object.create(Tranquility_Base.Constellation);
   Vega.fillStyle = Note.headColor;
 
   Vega.fillText(Note.headDark,  90, 129);
-  Vega.fillText(Note.headDark, 202, 122);
+  Vega.fillText(Note.headDark, 175, 122);
   Vega.fillText(Note.headDark, 260, 114);
   Vega.fillText(Note.headDark, 350, 106);
   Vega.fillText(Note.headDark, 440,  98);
   Vega.fillText(Note.headDark, 530,  91);
   Vega.fillText(Note.headDark, 620,  83);
 
-// accidentals
-
-  Vega.font = Note.acciStyle;
-  Vega.fillStyle = Note.acciColor;
-
-  Vega.fillText(Note.sharpChar, 175, 126);
-
 // sigils
 
   Vega.font = Sigil.stellarStyle;
   Vega.fillStyle = Sigil.stellarColor;
 
-  Vega.fillText(Sigil.neptune + Sigil.cancer,       75,  50);
-  Vega.fillText(Sigil.mars    + Sigil.aries,       180,  45);
-  Vega.fillText(Sigil.mercury + Sigil.pisces,      245,  40);
-  Vega.fillText(Sigil.jupiter + Sigil.capricorn,   335,  50);
-  Vega.fillText(Sigil.uranus  + Sigil.sagittarius, 425,  50);
-  Vega.fillText(Sigil.saturn  + Sigil.libra,       515,  50);
-  Vega.fillText(Sigil.sun     + Sigil.leo,         605,  50);
+  Vega.fillText(Sigil.saturn  + Sigil.cancer,       75,  50);
+  Vega.fillText(Sigil.sun     + Sigil.taurus,      160,  45);
+  Vega.fillText(Sigil.moon    + Sigil.pisces,      245,  40);
+  Vega.fillText(Sigil.mars    + Sigil.capricorn,   335,  50);
+  Vega.fillText(Sigil.mercury + Sigil.sagittarius, 425,  50);
+  Vega.fillText(Sigil.jupiter + Sigil.libra,       515,  50);
+  Vega.fillText(Sigil.venus   + Sigil.leo,         605,  50);
 
 }
 
