@@ -4,6 +4,17 @@
 
   <defs>
 
+    <symbol id="svg_FePb" stroke="#008b8b" stroke-width="2" stroke-linecap="round" fill="none">
+      <line x1="50" y1="60" x2="50" y2="40" />
+      <line x1="50" y1="80" x2="50" y2="60" />
+    
+      <line x1="60" y1="70" x2="35" y2="70" />
+    
+      <line x1="60" y1="50" x2="50" y2="40" />
+    
+      <path d="M 50 40 C 20 75 20 30 40 20" />
+    </symbol>
+
     <symbol id="svg_CuHg" stroke="#008b8b" stroke-width="2" stroke-linecap="round" fill="none">
       <line x1="50" y1="40" x2="50" y2="60" />
       <line x1="40" y1="50" x2="60" y2="50" />
