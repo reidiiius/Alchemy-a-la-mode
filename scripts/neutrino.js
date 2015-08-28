@@ -40,7 +40,7 @@ window.onload = function() {
 var ResLoc = {
   q4t_n0: "images\/bass\/q4t_n0.xml",
   q5t_n0: "images\/cello\/q5t_n0.xml",
-  gst_n0: "images\/guitar\/gst_n0.xml",
+  gst_n0: "images\/guitar\/gst_n0.xml"
 }
 
 function artWork(qp) {
