@@ -82,6 +82,17 @@
       <path d="M 50 60 C 80 25 80 70 60 80" />
     </symbol>
 
+    <symbol id="svg_NpNp" stroke="#008b8b" stroke-width="2" stroke-linecap="round" fill="none">
+      <line x1="50" y1="25" x2="50" y2="75" />
+      <line x1="40" y1="50" x2="60" y2="50" />
+
+      <path d="M 60 30 S 60 40 50 40" />
+      <path d="M 50 40 S 40 40 40 30" />
+
+      <path d="M 50 60 S 60 60 60 70" />
+      <path d="M 40 70 S 40 60 50 60" />
+    </symbol>
+
     <symbol id="sqr_0">
       <rect x="10" y="10" width="20" height="20" stroke-width="2" stroke="#deb887" fill="#cd853f" />
       <rect x="15" y="15" width="10" height="10" stroke-width="2" stroke="#f4a460" fill="#fffaf0" />
