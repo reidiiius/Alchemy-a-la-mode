@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg"
- xmlns:xlink="http://www.w3.org/1999/xlink" width="420" height="180">
+
+<svg width="420" height="180">
   <g>
     <use xlink:href="#sqr_1" x="10"  y="10" />
     <use xlink:href="#sqr_1" x="40"  y="10" />
