@@ -117,7 +117,7 @@ for (var u = 0; u < wings.length; u++) {
     for (var h = 0; h < slicat.length; h++) {
       var duo = slicat[h];
       document.writeln("<g>");
-        for (var i = 0; i < slicat[0].length; i++) {
+        for (var i = 0; i < duo.length; i++) {
           document.writeln("<use y=\'" + axis[h] + "\' x=\'" +
           axis[i] + "\' xlink:href=\'#sqr_" + duo[i] + "\'><\/use>");
         }
