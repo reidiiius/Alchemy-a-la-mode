@@ -12,6 +12,8 @@
 
 <span id="symBase"></span>
 
+<div id="serial"></div>
+
 <div id="menu_00">
   <button id="gstn0" type="button">EADGBE</button>
   <button id="q4tn0" type="button">BEADGCF</button>
@@ -23,35 +25,35 @@
 <article id="topaz">
 
 <svg id="FePb_00" width="100" height="100">
-  <use xlink:href="#svg_FePb" />
+  <use xlink:href="#svg_FePb" transform="translate(0 0) rotate(90 50 50)" />
 </svg>
 
 <svg id="CuHg_00" width="100" height="100">
-  <use xlink:href="#svg_CuHg" />
+  <use xlink:href="#svg_CuHg" transform="translate(0 0) rotate(90 50 50)" />
 </svg>
 
 <svg id="AgAu_00" width="100" height="100">
-  <use xlink:href="#svg_AgAu" />
+  <use xlink:href="#svg_AgAu" transform="translate(0 0) rotate(90 50 50)" />
 </svg>
 
 <svg id="SnSn_00" width="100" height="100">
-  <use xlink:href="#svg_SnSn" />
+  <use xlink:href="#svg_SnSn" transform="translate(0 0) rotate(90 50 50)" />
 </svg>
 
 <svg id="AuAg_00" width="100" height="100">
-  <use xlink:href="#svg_AuAg" />
+  <use xlink:href="#svg_AuAg" transform="translate(0 0) rotate(90 50 50)" />
 </svg>
 
 <svg id="HgCu_00" width="100" height="100">
-  <use xlink:href="#svg_HgCu" />
+  <use xlink:href="#svg_HgCu" transform="translate(0 0) rotate(90 50 50)" />
 </svg>
 
 <svg id="PbFe_00" width="100" height="100">
-  <use xlink:href="#svg_PbFe" />
+  <use xlink:href="#svg_PbFe" transform="translate(0 0) rotate(90 50 50)" />
 </svg>
 
 <svg id="NpNp_00" width="100" height="100">
-  <use xlink:href="#svg_NpNp" />
+  <use xlink:href="#svg_NpNp" transform="translate(0 0) rotate(90 50 50)" />
 </svg>
 
 </article>
@@ -60,15 +62,20 @@
   document.getElementById("gstn0").addEventListener("click",
     function() {
       artWork("images\/guitar\/gst_n0.xml");
-    } );
+    }, false);
   document.getElementById("q4tn0").addEventListener("click",
     function() {
       artWork("images\/bass\/q4t_n0.xml");
-    } );
+    }, false);
   document.getElementById("q5tn0").addEventListener("click",
     function() {
       artWork("images\/cello\/q5t_n0.xml");
-    } );
+    }, false);
+  document.getElementById("menu_00").addEventListener("click",
+    function() {
+      var nD = new Date();
+      document.getElementById("serial").innerHTML = nD.getTime();
+    }, false);
 </script>
 
 </body>
