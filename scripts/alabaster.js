@@ -1,6 +1,8 @@
 
 (function() {
 
+var gemStone = [];
+
 var obv = [
 [1,0,1,0,1,0,1,1,0,1,0,1,1],
 [1,0,1,0,0,1,1,1,0,1,0,1,1],
@@ -113,18 +115,21 @@ for (var u = 0; u < wings.length; u++) {
       symArr.slice( 6,12).concat(symArr.slice( 0, 7))
     ];
 
-    document.writeln("<div><svg width=\'420\' height=\'240\'>");
+    gemStone.push("<div><svg width=\'420\' height=\'240\'>");
     for (var h = 0; h < slicat.length; h++) {
       var duo = slicat[h];
-      document.writeln("<g>");
+      gemStone.push("<g>");
         for (var i = 0; i < duo.length; i++) {
-          document.writeln("<use y=\'" + axis[h] + "\' x=\'" +
+          gemStone.push("<use y=\'" + axis[h] + "\' x=\'" +
           axis[i] + "\' xlink:href=\'#sqr_" + duo[i] + "\'><\/use>");
         }
-      document.writeln("<\/g>");
+      gemStone.push("<\/g>");
     }
-    document.writeln("<\/svg></div>");
+    gemStone.push("<\/svg><\/div>");
   }
 }
+
+document.getElementById("area42").innerHTML = gemStone.join("\n");
+
 })();
 
