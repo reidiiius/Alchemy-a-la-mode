@@ -2,7 +2,7 @@
 body {
   background-color:#fffff0;
 }
-#symBase {
+#imports {
   position:absolute;
   left:0;
   top:0;
@@ -31,7 +31,7 @@ footer.altamira {
   left:300px;
   top:530px;
 }
-.msg {
+.attr {
   padding:50px 10px 10px 10px;
   text-align:center;
   font-family:sans-serif;

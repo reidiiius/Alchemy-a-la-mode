@@ -1,0 +1,14 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="sqr_0">
+  <rect x="10" y="10" width="20" height="20" stroke-width="2" stroke="#a0522d" fill="#b8860b"/>
+  <rect x="15" y="15" width="10" height="10" stroke-width="2" stroke="#f4a460" fill="#ffebcd"/>
+</symbol>
+<symbol id="sqr_1">
+  <rect x="10" y="10" width="20" height="20" stroke-width="2" stroke="#556b2f" fill="#6b8e23"/>
+  <rect x="15" y="15" width="10" height="10" stroke-width="2" stroke="#9acd32" fill="#f5fffa"/>
+</symbol>
+</defs>
+</svg>
+

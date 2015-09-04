@@ -1,79 +1,79 @@
 
 <svg width="420" height="180">
-  <g>
-    <use xlink:href="#sqr_1" x="10"  y="10" />
-    <use xlink:href="#sqr_1" x="40"  y="10" />
-    <use xlink:href="#sqr_0" x="70"  y="10" />
-    <use xlink:href="#sqr_1" x="100" y="10" />
-    <use xlink:href="#sqr_0" x="130" y="10" />
-    <use xlink:href="#sqr_1" x="160" y="10" />
-    <use xlink:href="#sqr_0" x="190" y="10" />
-    <use xlink:href="#sqr_1" x="220" y="10" />
-    <use xlink:href="#sqr_1" x="250" y="10" />
-    <use xlink:href="#sqr_0" x="280" y="10" />
-    <use xlink:href="#sqr_1" x="310" y="10" />
-    <use xlink:href="#sqr_0" x="340" y="10" />
-    <use xlink:href="#sqr_1" x="370" y="10" />
-  </g>
-  <g>
-    <use xlink:href="#sqr_1" x="10"  y="40" />
-    <use xlink:href="#sqr_0" x="40"  y="40" />
-    <use xlink:href="#sqr_1" x="70"  y="40" />
-    <use xlink:href="#sqr_1" x="100" y="40" />
-    <use xlink:href="#sqr_0" x="130" y="40" />
-    <use xlink:href="#sqr_1" x="160" y="40" />
-    <use xlink:href="#sqr_0" x="190" y="40" />
-    <use xlink:href="#sqr_1" x="220" y="40" />
-    <use xlink:href="#sqr_1" x="250" y="40" />
-    <use xlink:href="#sqr_0" x="280" y="40" />
-    <use xlink:href="#sqr_1" x="310" y="40" />
-    <use xlink:href="#sqr_0" x="340" y="40" />
-    <use xlink:href="#sqr_1" x="370" y="40" />
-  </g>
-  <g>
-    <use xlink:href="#sqr_1" x="10"  y="70" />
-    <use xlink:href="#sqr_0" x="40"  y="70" />
-    <use xlink:href="#sqr_1" x="70"  y="70" />
-    <use xlink:href="#sqr_1" x="100" y="70" />
-    <use xlink:href="#sqr_0" x="130" y="70" />
-    <use xlink:href="#sqr_1" x="160" y="70" />
-    <use xlink:href="#sqr_0" x="190" y="70" />
-    <use xlink:href="#sqr_1" x="220" y="70" />
-    <use xlink:href="#sqr_0" x="250" y="70" />
-    <use xlink:href="#sqr_1" x="280" y="70" />
-    <use xlink:href="#sqr_1" x="310" y="70" />
-    <use xlink:href="#sqr_0" x="340" y="70" />
-    <use xlink:href="#sqr_1" x="370" y="70" />
-  </g>
-  <g>
-    <use xlink:href="#sqr_1" x="10"  y="100" />
-    <use xlink:href="#sqr_0" x="40"  y="100" />
-    <use xlink:href="#sqr_1" x="70"  y="100" />
-    <use xlink:href="#sqr_0" x="100" y="100" />
-    <use xlink:href="#sqr_1" x="130" y="100" />
-    <use xlink:href="#sqr_1" x="160" y="100" />
-    <use xlink:href="#sqr_0" x="190" y="100" />
-    <use xlink:href="#sqr_1" x="220" y="100" />
-    <use xlink:href="#sqr_0" x="250" y="100" />
-    <use xlink:href="#sqr_1" x="280" y="100" />
-    <use xlink:href="#sqr_1" x="310" y="100" />
-    <use xlink:href="#sqr_0" x="340" y="100" />
-    <use xlink:href="#sqr_1" x="370" y="100" />
-  </g>
-  <g>
-    <use xlink:href="#sqr_1" x="10"  y="130" />
-    <use xlink:href="#sqr_0" x="40"  y="130" />
-    <use xlink:href="#sqr_1" x="70"  y="130" />
-    <use xlink:href="#sqr_0" x="100" y="130" />
-    <use xlink:href="#sqr_1" x="130" y="130" />
-    <use xlink:href="#sqr_1" x="160" y="130" />
-    <use xlink:href="#sqr_0" x="190" y="130" />
-    <use xlink:href="#sqr_1" x="220" y="130" />
-    <use xlink:href="#sqr_0" x="250" y="130" />
-    <use xlink:href="#sqr_1" x="280" y="130" />
-    <use xlink:href="#sqr_0" x="310" y="130" />
-    <use xlink:href="#sqr_1" x="340" y="130" />
-    <use xlink:href="#sqr_1" x="370" y="130" />
-  </g>
+<g>
+  <use xlink:href="#sqr_1" x="10"  y="10"/>
+  <use xlink:href="#sqr_1" x="40"  y="10"/>
+  <use xlink:href="#sqr_0" x="70"  y="10"/>
+  <use xlink:href="#sqr_1" x="100" y="10"/>
+  <use xlink:href="#sqr_0" x="130" y="10"/>
+  <use xlink:href="#sqr_1" x="160" y="10"/>
+  <use xlink:href="#sqr_0" x="190" y="10"/>
+  <use xlink:href="#sqr_1" x="220" y="10"/>
+  <use xlink:href="#sqr_1" x="250" y="10"/>
+  <use xlink:href="#sqr_0" x="280" y="10"/>
+  <use xlink:href="#sqr_1" x="310" y="10"/>
+  <use xlink:href="#sqr_0" x="340" y="10"/>
+  <use xlink:href="#sqr_1" x="370" y="10"/>
+</g>
+<g>
+  <use xlink:href="#sqr_1" x="10"  y="40"/>
+  <use xlink:href="#sqr_0" x="40"  y="40"/>
+  <use xlink:href="#sqr_1" x="70"  y="40"/>
+  <use xlink:href="#sqr_1" x="100" y="40"/>
+  <use xlink:href="#sqr_0" x="130" y="40"/>
+  <use xlink:href="#sqr_1" x="160" y="40"/>
+  <use xlink:href="#sqr_0" x="190" y="40"/>
+  <use xlink:href="#sqr_1" x="220" y="40"/>
+  <use xlink:href="#sqr_1" x="250" y="40"/>
+  <use xlink:href="#sqr_0" x="280" y="40"/>
+  <use xlink:href="#sqr_1" x="310" y="40"/>
+  <use xlink:href="#sqr_0" x="340" y="40"/>
+  <use xlink:href="#sqr_1" x="370" y="40"/>
+</g>
+<g>
+  <use xlink:href="#sqr_1" x="10"  y="70"/>
+  <use xlink:href="#sqr_0" x="40"  y="70"/>
+  <use xlink:href="#sqr_1" x="70"  y="70"/>
+  <use xlink:href="#sqr_1" x="100" y="70"/>
+  <use xlink:href="#sqr_0" x="130" y="70"/>
+  <use xlink:href="#sqr_1" x="160" y="70"/>
+  <use xlink:href="#sqr_0" x="190" y="70"/>
+  <use xlink:href="#sqr_1" x="220" y="70"/>
+  <use xlink:href="#sqr_0" x="250" y="70"/>
+  <use xlink:href="#sqr_1" x="280" y="70"/>
+  <use xlink:href="#sqr_1" x="310" y="70"/>
+  <use xlink:href="#sqr_0" x="340" y="70"/>
+  <use xlink:href="#sqr_1" x="370" y="70"/>
+</g>
+<g>
+  <use xlink:href="#sqr_1" x="10"  y="100"/>
+  <use xlink:href="#sqr_0" x="40"  y="100"/>
+  <use xlink:href="#sqr_1" x="70"  y="100"/>
+  <use xlink:href="#sqr_0" x="100" y="100"/>
+  <use xlink:href="#sqr_1" x="130" y="100"/>
+  <use xlink:href="#sqr_1" x="160" y="100"/>
+  <use xlink:href="#sqr_0" x="190" y="100"/>
+  <use xlink:href="#sqr_1" x="220" y="100"/>
+  <use xlink:href="#sqr_0" x="250" y="100"/>
+  <use xlink:href="#sqr_1" x="280" y="100"/>
+  <use xlink:href="#sqr_1" x="310" y="100"/>
+  <use xlink:href="#sqr_0" x="340" y="100"/>
+  <use xlink:href="#sqr_1" x="370" y="100"/>
+</g>
+<g>
+  <use xlink:href="#sqr_1" x="10"  y="130"/>
+  <use xlink:href="#sqr_0" x="40"  y="130"/>
+  <use xlink:href="#sqr_1" x="70"  y="130"/>
+  <use xlink:href="#sqr_0" x="100" y="130"/>
+  <use xlink:href="#sqr_1" x="130" y="130"/>
+  <use xlink:href="#sqr_1" x="160" y="130"/>
+  <use xlink:href="#sqr_0" x="190" y="130"/>
+  <use xlink:href="#sqr_1" x="220" y="130"/>
+  <use xlink:href="#sqr_0" x="250" y="130"/>
+  <use xlink:href="#sqr_1" x="280" y="130"/>
+  <use xlink:href="#sqr_0" x="310" y="130"/>
+  <use xlink:href="#sqr_1" x="340" y="130"/>
+  <use xlink:href="#sqr_1" x="370" y="130"/>
+</g>
 </svg>
 

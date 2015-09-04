@@ -8,7 +8,7 @@ window.onload = function() {
 
 var xhtpr = new XMLHttpRequest();
 var dgebi = document.getElementById("area85");
-  xhtpr.open("GET", "images\/syzygy.xml", false);
+  xhtpr.open("GET", "images\/parquet.xml", false);
   xhtpr.send();
   dgebi.innerHTML = xhtpr.responseText;
 

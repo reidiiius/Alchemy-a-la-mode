@@ -38,6 +38,7 @@ function artWork(qp) {
 }
 
 window.onload = function() {
+  fetchDefs("images\/parquet.xml", "symData");
   fetchDefs("images\/syzygy.xml", "symBase");
 }
 
