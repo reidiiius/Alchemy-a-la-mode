@@ -1,6 +1,6 @@
 
 function fetchDefs(y, z) {
-  var s = false;
+  var s = true;
   var x = new XMLHttpRequest();
   var d = document.getElementById(z);
 

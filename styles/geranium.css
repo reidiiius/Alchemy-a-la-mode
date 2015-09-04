@@ -34,10 +34,40 @@ body {
   background-color:#ffffff;
   color:#a52a2a;
 }
+.lnks {
+  line-height:30px;
+  margin:0;
+  border:1px solid transparent;
+  border-radius:6px;
+  padding:4px;
+  background-color:inherit;
+}
+.lnks:hover {
+  border:1px solid #deb887;
+  background-color:#ffffff;
+}
+a {
+  text-decoration:none;
+  font-family:monospace;
+  font-size:16px;
+  color:#4682b4;
+  cursor:pointer;
+}
+a:hover {
+  color:#a52a2a;
+}
 #view {
   width:428px;
   margin:0 auto 0 auto;
   text-align:center;
+}
+iframe[name="_blmbs"] {
+  width:430px;
+  height:250px;
+  margin:5px auto 0 auto;
+  border:0;
+  padding:6px 10px 0 0;
+  overflow:hidden;
 }
 #imports {
   display:none;
