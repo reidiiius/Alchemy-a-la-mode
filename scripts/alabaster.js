@@ -1,11 +1,9 @@
 
+"use strict";
+
 window.onload = function() {
 
-var xhtpr = new XMLHttpRequest();
-var dgebi = document.getElementById("symData");
-  xhtpr.open("GET", "images\/parquet.xml", false);
-  xhtpr.send();
-  dgebi.innerHTML = xhtpr.responseText;
+fetchDefs("images\/parquet.xml", "symData");
 
 var gemStone = [];
 

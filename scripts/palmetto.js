@@ -1,4 +1,6 @@
 
+"use strict";
+
 function echiNacea(qp) {
   var d = document.getElementById("area84");
   d.innerHTML = "<use xlink:href=\'#q4_" + qp + "\'><\/use>";
@@ -6,11 +8,7 @@ function echiNacea(qp) {
 
 window.onload = function() {
 
-var xhtpr = new XMLHttpRequest();
-var dgebi = document.getElementById("area85");
-  xhtpr.open("GET", "images\/parquet.xml", false);
-  xhtpr.send();
-  dgebi.innerHTML = xhtpr.responseText;
+fetchDefs("images\/parquet.xml", "symData");
 
 var gemStone = [];
 
@@ -59,7 +57,7 @@ for (var u = 0; u < wings.length; u++) {
 gemStone.push("<\/defs>");
 gemStone.push("<\/svg>");
 
-document.getElementById("area86").innerHTML = gemStone.join("\n");
+document.getElementById("area42").innerHTML = gemStone.join("\n");
 
   echiNacea("n0");
 };

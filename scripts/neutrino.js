@@ -1,4 +1,6 @@
 
+"use strict";
+
 function fetchDefs(y, z) {
   var s = true;
   var x = new XMLHttpRequest();
@@ -33,11 +35,7 @@ function fetchDefs(y, z) {
   }
 }
 
-function artWork(qp) {
-  fetchDefs(qp, "view_00");
-}
-
-window.onload = function() {
+function syzygyParquet() {
   fetchDefs("images\/parquet.xml", "symData");
   fetchDefs("images\/syzygy.xml", "symBase");
 }

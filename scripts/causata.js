@@ -1,19 +1,21 @@
 
+"use strict";
+
 document.getElementById("gstn0").addEventListener("click",
   function() {
-    artWork("images\/guitar\/gst_n0.xml");
+    fetchDefs("images\/guitar\/gst_n0.xml", "view_00");
   }, false);
 document.getElementById("q4tn0").addEventListener("click",
   function() {
-    artWork("images\/bass\/q4t_n0.xml");
+    fetchDefs("images\/bass\/q4t_n0.xml", "view_00");
   }, false);
 document.getElementById("q5tn0").addEventListener("click",
   function() {
-    artWork("images\/cello\/q5t_n0.xml");
+    fetchDefs("images\/cello\/q5t_n0.xml", "view_00");
   }, false);
 document.getElementById("menu_00").addEventListener("click",
   function() {
-    var nD = new Date();
-    document.getElementById("serial").innerHTML = nD.getTime();
+    var nwDt = new Date();
+    document.getElementById("serial").innerHTML = nwDt.getTime();
   }, false);
 
