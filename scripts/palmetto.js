@@ -57,7 +57,7 @@ for (var u = 0; u < wings.length; u++) {
 gemStone.push("<\/defs>");
 gemStone.push("<\/svg>");
 
-document.getElementById("area42").innerHTML = gemStone.join("\n");
+document.getElementById("area42").insertAdjacentHTML("afterbegin", gemStone.join("\n"));
 
   echiNacea("n0");
 };

@@ -9,7 +9,7 @@ function fetchDefs(y, z) {
   if (s) {
     x.onreadystatechange = function() {
       if (x.readyState == 4 && x.status == 200) {
-        d.innerHTML = x.responseText;
+        d.insertAdjacentHTML("afterbegin", x.responseText);
       }
       else {
         try {
@@ -21,7 +21,7 @@ function fetchDefs(y, z) {
             throw "Internal Server Error";
         }
         catch(err) {
-          d.innerHTML = err;
+          d.textContent = err;
         }
       }
     }
@@ -31,7 +31,7 @@ function fetchDefs(y, z) {
   else {
     x.open("GET", y, s);
     x.send();
-    d.innerHTML = x.responseText;
+    d.insertAdjacentHTML("afterbegin", x.responseText);
   }
 }
 
