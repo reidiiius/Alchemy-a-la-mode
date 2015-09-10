@@ -14,14 +14,14 @@ function fetchDefs(y, z) {
       else {
         try {
           if (x.status == 404)
-            throw "File not found - " + y
+            throw "File not found " + y;
           if (x.status == 418)
-            throw "I\'m a teapot"
+            throw "I\'m a teapot";
           if (x.status == 500)
             throw "Internal Server Error";
         }
-        catch(err) {
-          d.textContent = err;
+        catch(e) {
+          d.textContent = e;
         }
       }
     }

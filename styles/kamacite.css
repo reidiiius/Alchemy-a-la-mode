@@ -121,7 +121,11 @@ article#topaz {
   left:750px;
   top:50px;
 }
-
+.errormessage {
+  font-family:'Courier New', monospace;
+  font-size:24px;
+  color:#b22222;
+}
 @media screen and ( max-width:870px ) {
   footer.altamira {
     position:relative;

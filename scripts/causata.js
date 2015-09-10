@@ -9,7 +9,18 @@ function viewGraph(y, z) {
       d.innerHTML = x.responseText;
     }
     else {
-      d.innerHTML = null;
+      try {
+        if (x.status == 404)
+          throw new Error(y);
+        if (x.status == 500)
+          throw new Error("Internal Server");
+        else
+          return;
+      }
+      catch(e) {
+        d.innerHTML = "<p class=\'errormessage\'>" +
+        e.name + " " + e.message + "<\/p>";
+      }
     }
   }
   x.open("GET", y, true);
