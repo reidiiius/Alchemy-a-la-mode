@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100">
+  <rect width="100" height="100" fill="#228b22" />
+  <g id="alchemyalamode" stroke="#daa520" stroke-width="2" stroke-linejoin="round"
+     fill="#800080" transform="translate(-7 -5) rotate(12 50 50)">
+    <path d="M 50.0 90.0 S 60.3 88.8 68.8 82.8 L 50 50 Z" />
+    <path d="M 68.8 82.8 S 76.6 76.7 80.7 67.8 L 50 50 Z" />
+    <path d="M 80.7 67.8 S 84.3 59.3 83.5 50.0 L 50 50 Z" />
+    <path d="M 83.5 50.0 S 82.5 41.3 77.5 34.2 L 50 50 Z" />
+    <path d="M 77.5 34.2 S 72.4 27.5 64.9 24.1 L 50 50 Z" />
+    <path d="M 64.9 24.1 S 57.6 21.0 50.0 21.8 L 50 50 Z" />
+    <path d="M 50.0 21.8 S 42.6 22.7 36.6 26.8 L 50 50 Z" />
+    <path d="M 36.6 26.8 S 31.1 31.1 28.1 37.4 L 50 50 Z" />
+    <path d="M 28.1 37.4 S 25.5 43.5 26.1 50.0 L 50 50 Z" />
+    <path d="M 26.1 50.0 S 26.9 56.2 30.5 61.2 L 50 50 Z" />
+    <path d="M 30.5 61.2 S 34.0 66.0 39.3 68.4 L 50 50 Z" />
+    <path d="M 39.3 68.4 S 44.4 70.6 50.0 70.0 L 50 50 Z" />
+  </g>
+</svg>
+
