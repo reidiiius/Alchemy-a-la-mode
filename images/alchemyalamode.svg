@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100">
   <rect width="100" height="100" fill="#228b22" />
   <g id="alchemyalamode" stroke="#daa520" stroke-width="2" stroke-linejoin="round"
-     fill="#800080" transform="translate(-7 -5) rotate(12 50 50)">
+     fill="#800080" transform="translate(-5 -5) rotate(12 50 50)">
     <path d="M 50.0 90.0 S 60.3 88.8 68.8 82.8 L 50 50 Z" />
     <path d="M 68.8 82.8 S 76.6 76.7 80.7 67.8 L 50 50 Z" />
     <path d="M 80.7 67.8 S 84.3 59.3 83.5 50.0 L 50 50 Z" />
