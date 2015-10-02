@@ -1,0 +1,63 @@
+<!doctype html>
+<meta charset=UTF-8>
+<meta name=author content=Reid-Netterville-III>
+<title>DodecaScalene</title>
+<style type=text/css>
+body {
+  background-color: rgb(245, 245, 220)
+  padding: 2.245%;
+  text-align: center
+}
+</style>
+<canvas id=dodecascalene></canvas>
+<script type=application/javascript>
+(function() { 'use strict'
+  var cnv = document.getElementById('dodecascalene')
+  cnv.setAttribute('width', (innerWidth / 2.67))
+  cnv.setAttribute('height', cnv.getAttribute('width'))
+  var drw = cnv.getContext('2d')
+  var xpo = (cnv.getAttribute('width') / 100)
+  drw.beginPath()
+  drw.moveTo((50.0 * xpo), (50.0 * xpo))
+  drw.lineTo((50.0 * xpo), (90.0 * xpo))
+  drw.lineTo((68.8 * xpo), (82.8 * xpo))
+  drw.moveTo((50.0 * xpo), (50.0 * xpo))
+  drw.lineTo((68.8 * xpo), (82.8 * xpo))
+  drw.lineTo((80.7 * xpo), (67.8 * xpo))
+  drw.moveTo((50.0 * xpo), (50.0 * xpo))
+  drw.lineTo((80.7 * xpo), (67.8 * xpo))
+  drw.lineTo((83.5 * xpo), (50.0 * xpo))
+  drw.moveTo((50.0 * xpo), (50.0 * xpo))
+  drw.lineTo((83.5 * xpo), (50.0 * xpo))
+  drw.lineTo((77.5 * xpo), (34.2 * xpo))
+  drw.moveTo((50.0 * xpo), (50.0 * xpo))
+  drw.lineTo((77.5 * xpo), (34.2 * xpo))
+  drw.lineTo((64.9 * xpo), (24.1 * xpo))
+  drw.moveTo((50.0 * xpo), (50.0 * xpo))
+  drw.lineTo((64.9 * xpo), (24.1 * xpo))
+  drw.lineTo((50.0 * xpo), (21.8 * xpo))
+  drw.moveTo((50.0 * xpo), (50.0 * xpo))
+  drw.lineTo((50.0 * xpo), (21.8 * xpo))
+  drw.lineTo((36.6 * xpo), (26.8 * xpo))
+  drw.moveTo((50.0 * xpo), (50.0 * xpo))
+  drw.lineTo((36.6 * xpo), (26.8 * xpo))
+  drw.lineTo((28.1 * xpo), (37.4 * xpo))
+  drw.moveTo((50.0 * xpo), (50.0 * xpo))
+  drw.lineTo((28.1 * xpo), (37.4 * xpo))
+  drw.lineTo((26.1 * xpo), (50.0 * xpo))
+  drw.moveTo((50.0 * xpo), (50.0 * xpo))
+  drw.lineTo((26.1 * xpo), (50.0 * xpo))
+  drw.lineTo((30.5 * xpo), (61.2 * xpo))
+  drw.moveTo((50.0 * xpo), (50.0 * xpo))
+  drw.lineTo((30.5 * xpo), (61.2 * xpo))
+  drw.lineTo((39.3 * xpo), (68.4 * xpo))
+  drw.moveTo((50.0 * xpo), (50.0 * xpo))
+  drw.lineTo((39.3 * xpo), (68.4 * xpo))
+  drw.lineTo((50.0 * xpo), (70.0 * xpo))
+  drw.closePath()
+  drw.lineWidth = (0.534 * xpo)
+  drw.strokeStyle = 'rgb(46, 139, 87)'
+  drw.stroke()
+})()
+</script>
+
