@@ -12,23 +12,31 @@
   <circle cx="50" cy="50" r="2" stroke="teal" fill="none"></circle>
 </symbol>
 
+<symbol id="circle5">
+  <circle cx="50" cy="50" r="5" stroke="teal" fill="none"></circle>
+</symbol>
+
+<symbol id="circle25">
+  <circle cx="50" cy="55" r="25" stroke="teal" fill="none"></circle>
+</symbol>
+
 <symbol id="photosphere">
   <circle cx="50" cy="50" r="30" stroke="teal" fill="none"></circle>
 </symbol>
 
-<symbol id="crescent">
-  <circle cx="50" cy="55" r="25" stroke="teal" fill="none"></circle>
-</symbol>
-
-<symbol id="horizon_40x40">
+<symbol id="m40x40h60x40">
   <path d="M 40 40 H 60 40" stroke="teal"></path>
 </symbol>
 
-<symbol id="horizon_35x45">
+<symbol id="m35x45h65x45">
   <path d="M 35 45 H 65 45" stroke="teal"></path>
 </symbol>
 
-<symbol id="vertical_50x30">
+<symbol id="m35x35v35x55">
+  <path d="M 35 35 V 35 55" stroke="teal"></path>
+</symbol>
+
+<symbol id="m50x30v50x75">
   <path d="M 50 30 V 50 75" stroke="teal"></path>
 </symbol>
 
@@ -66,7 +74,12 @@
 </symbol>
 
 <symbol id="wingcurve">
-  <path d="M 55 66 C 70 40 85 60 80 70" stroke="teal" stroke-width="1"
+  <path d="M 55 65 C 70 40 85 60 80 70" stroke="teal" stroke-width="1"
+ stroke-linecap="round" fill="none"></path>
+</symbol>
+
+<symbol id="wingcrescent">
+  <path d="M 55 65 C 65 50 80 65 80 70" stroke="teal" stroke-width="1"
  stroke-linecap="round" fill="none"></path>
 </symbol>
 
