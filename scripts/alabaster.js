@@ -12,17 +12,22 @@ var rev = Object.create(CryptoCrystalline.rhyolite);
 var sgn = Object.create(CryptoCrystalline.quartzite);
 
 var wings = [obv, rev];
+var symArr = new Array(13);
+var slicat = new Array(7);
+var duo = new Array(13);
+var axis = [10,40,70,100,130,160,190,220,250,280,310,340,370];
+var u, m, h, i;
 
-for (var u = 0; u < wings.length; u++) {
+for (u = 0; u < wings.length; u++) {
 
-  for (var m = 0; m < wings[u].length; m++) {
+  for (m = 0; m < wings[u].length; m++) {
 
     gemStone.push("<div id=\'" + sgn[u][m] + "\'>");
     gemStone.push("<svg width=\'420\' height=\'240\'>");
 
-    var symArr = wings[u][m];
+    symArr = wings[u][m];
 
-    var slicat = [
+    slicat = [
       symArr,
       symArr.slice( 7,12).concat(symArr.slice( 0, 8)),
       symArr.slice( 2,12).concat(symArr.slice( 0, 3)),
@@ -32,12 +37,11 @@ for (var u = 0; u < wings.length; u++) {
       symArr.slice( 6,12).concat(symArr.slice( 0, 7))
     ];
 
-    for (var h = 0; h < slicat.length; h++) {
-      var duo = slicat[h];
-      var axis = [10,40,70,100,130,160,190,220,250,280,310,340,370];
+    for (h = 0; h < slicat.length; h++) {
+      duo = slicat[h];
       gemStone.push("<g>");
 
-        for (var i = 0; i < duo.length; i++) {
+        for (i = 0; i < duo.length; i++) {
           gemStone.push("<use y=\'" + axis[h] + "\' x=\'" +
           axis[i] + "\' xlink:href=\'#sqr_" + duo[i] + "\'><\/use>");
         }
@@ -48,7 +52,8 @@ for (var u = 0; u < wings.length; u++) {
   }
 }
 
-document.getElementById("area42").insertAdjacentHTML("afterbegin", gemStone.join("\n"));
+  var areaFortyTwo = document.getElementById("area42");
+  areaFortyTwo.insertAdjacentHTML("afterbegin", gemStone.join("\n"));
 
 };
 
