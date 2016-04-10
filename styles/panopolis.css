@@ -1,0 +1,47 @@
+
+body {
+  margin:0;
+  padding:0;
+  background-color:#fffff0;
+  font-family:monospace;
+  font-size:16px;
+  color:#2f4f4f;
+}
+header {
+  height:80px;
+}
+#logo {
+  vertical-align:middle;
+}
+.banner {
+  margin:0 auto;
+  padding:6px;
+  text-align:center;
+  font-size:24px;
+  color:#7b68ee;
+}
+#speleograph {
+  margin:1em;
+}
+.surveyor {
+  padding:0;
+  list-style:none;
+  line-height:24px;
+  font-weight:bold;
+}
+a {
+  text-decoration:none;
+  color:#d2691e;
+}
+a:hover {
+  text-decoration:underline;
+  color:#a0522d;
+}
+#footer {
+  padding:1em;
+}
+.attr {
+  text-align:center;
+  font-size:12px;
+}
+
