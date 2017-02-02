@@ -1,0 +1,62 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d1d1d;
+  background: radial-gradient(#1f2f2f, #0d1d1d);
+  text-align:center;
+}
+nav.wing {
+  width: 16%;
+  margin: 1em;
+  border: 1px dotted transparent;
+}
+nav#starboard {
+  float: right;
+}
+nav#wharf {
+  float: left;
+}
+nav.wing input {
+  border: 1px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 1px;
+  font-size: 20px;
+  color: SlateGrey;
+}
+nav.wing input:hover {
+  border: 1px solid DimGrey;
+  border-radius: 6px;
+  background-color: #1b3b3b;
+  color: LightGrey;
+}
+section.intaglio {
+  width: 762px;
+  height: 622px;
+  margin: 0.33em auto;
+  border: 1px solid transparent;
+}
+section.intaglio svg {
+  margin: 0 auto;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  overflow: hidden;
+}
+section.intaglio text {
+  font-family: monospace;
+  font-size: 52px;
+}
+section.intaglio tspan {
+  stroke-width: 1;
+  fill: Gold;
+  stroke: Chocolate;
+}
+
+@media screen and (max-width: 1234px) {
+  nav.wing {
+    display: none;
+  }
+}
+
