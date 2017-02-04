@@ -4,8 +4,7 @@
 var Utnapishtim = function(epithet) {
 
   var deucalion = document.getElementById("deucalion");
-
-  var shamash = "♐ ♏ ♎ ♍ ♌ ♋ ♊ ♉ ♈ ♓ ♒ ♑ ",
+  var shamash = "\u2650 \u264F \u264E \u264D \u264C \u264B \u264A \u2649 \u2648 \u2653 \u2652 \u2651 ",
       ziusudra = shamash.split(" ");
 
   var gopuram = {

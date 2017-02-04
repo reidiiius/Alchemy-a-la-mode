@@ -53,10 +53,26 @@ section.intaglio tspan {
   fill: Gold;
   stroke: Chocolate;
 }
-
 @media screen and (max-width: 1234px) {
   nav.wing {
     display: none;
+  }
+  section.intaglio {
+    width: 100%;
+    height: auto;
+  }
+  section.intaglio text {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 730px) {
+  section.intaglio text {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 500px) {
+  section.intaglio text {
+    font-size: 24px;
   }
 }
 
